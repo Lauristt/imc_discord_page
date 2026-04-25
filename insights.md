@@ -546,3 +546,11 @@ NO_INSIGHTS 的反面，已提取上述见解。
 - Manual trading界面字段说明：网站UI中的"lowest bid"对应bid 1，"highest bid"对应bid 2
 
 ---
+
+## 2026-04-25 15:48
+
+- #algo-trading: 154k是对最优交易做DP（动态规划）能得到的精确收益上限值
+- #algo-trading: 使用神经网络(NN)可以明显提升策略表现
+- #manual-trading: manual trading出价建议(675, 920)，因为没人能在670清算，b1需要高于他们的清算价；如果第二出价选920，第一出价至少应为675，期望收益约24.5k
+
+---
