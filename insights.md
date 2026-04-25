@@ -342,3 +342,12 @@ NO_INSIGHTS的部分已过滤。
 - #manual-trading: 有人manual trading选择836作为答案
 
 ---
+
+## 2026-04-25 10:50
+
+- #general: 有传言称硬编码参数提交算法的选手会被取消资格（需自行确认真伪）
+- #algo-trading: 第4轮无晋级门槛，所有人都进
+- #algo-trading: 构建IV smile和希腊字母可使用py_vollib库（github.com/vollib/py_vollib）来计算期权价格
+- #algo-trading: 波动率微笑曲线对option vouchers定价是官方hints提到的方向，值得用真实BS模型拟合而非硬编码系数
+
+---
