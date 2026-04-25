@@ -129,3 +129,11 @@
 - manual-trading: 有选手疑问惩罚公式是否对称（即b2高于均值时是否是奖励而非惩罚，还是被cap在1）
 
 ---
+
+## 2026-04-25 02:45
+
+- #algo-trading: 有选手怀疑高PnL榜单是过拟合所致，正式轮可能无法复现
+- #algo-trading: VEV期权的IV scalping策略（类似Frankfurt Hedgehogs的GitHub思路）尝试者反馈：ATM期权IV基本静态在0.23附近，难以发现错误定价或价格滞后，效果不佳
+- #manual-trading: manual博弈题（类似去年Nash游戏）讨论：去年最优解是Nash+1，预计今年大家会选Nash+2；本年5的增量步长使博弈更复杂；PnL落后的玩家可能会偏离Nash以博取更高收益
+
+---
