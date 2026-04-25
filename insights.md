@@ -67,3 +67,13 @@
 - 单日合理PnL量级在120k左右仍属一般水平
 
 ---
+
+## 2026-04-25 00:55
+
+#algo-trading
+- 期权IV计算时年化因子选择有争议：有人用8/256，Frankfurt Hedgehogs队伍使用365天
+- 参考资源：TimoDiehm的IMC Prosperity 3 GitHub仓库（round 3 options scalping部分）有可借鉴的期权策略
+- 提醒：第2天的测试数据与在线数据高度相似，容易过拟合，需注意泛化能力
+- 期权定价需理解理论模型（Black-Scholes等），不能仅靠经验调参
+
+---
