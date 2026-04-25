@@ -683,3 +683,12 @@ NO_INSIGHTS 的反面，已提取上述见解。
 - algo-trading: 高仓位限制被认为是为了 disincentivize full delta hedge
 
 ---
+
+## 2026-04-25 17:40
+
+- VEF（vouchers）的提示是隐含波动率（implied volatility），可用于定价
+- 本轮（hydro/options相关）过拟合风险高，IMC官方回测器与开源回测器结果常不一致
+- 不使用提示也能获得高VEF收益的策略很可能是过拟合
+- Manual交易中各项独立服从均匀分布（每个有自己的分布参数）
+
+---
