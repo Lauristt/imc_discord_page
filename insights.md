@@ -217,3 +217,11 @@ NO_INSIGHTS之外的有效信息有限，多数为闲聊。
 - #manual-trading: 有选手计划在第二轮bid出价920以拉高平均价、惩罚其他参赛者（manual trading博弈策略，需警惕高位竞价造成的影响）
 
 ---
+
+## 2026-04-25 06:15
+
+- 网站当前使用day2前10%数据进行测试，最终提交时TTE应为5
+- 期权策略回测三天可达450k PnL，但实盘仅15k，day2开盘波动率较大导致表现不佳
+- Hydrogel（Magnificent Macarons类似品种）简单策略可获约8k PnL
+
+---
