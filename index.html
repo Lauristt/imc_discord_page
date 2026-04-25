@@ -190,6 +190,115 @@
       font-size: 14px;
       color: #f78166;
     }
+
+    /* ── Section titles ── */
+    .section-title {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      margin-bottom: 10px;
+    }
+
+    /* ── Activity chart ── */
+    .activity-wrap {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px 10px;
+      margin-bottom: 20px;
+    }
+
+    .chart-bars {
+      display: flex;
+      align-items: flex-end;
+      gap: 2px;
+      height: 72px;
+    }
+
+    .bar-col {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 100%;
+      position: relative;
+    }
+
+    .bar-col:hover .bar-tip { display: block; }
+
+    .bar-seg { width: 100%; }
+    .bar-general { background: #f78166; }
+    .bar-algo    { background: #58a6ff; }
+    .bar-manual  { background: #3fb950; }
+
+    .bar-tip {
+      display: none;
+      position: absolute;
+      bottom: calc(100% + 5px);
+      left: 50%;
+      transform: translateX(-50%);
+      background: #1c2d3a;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 5px 9px;
+      font-size: 11px;
+      white-space: nowrap;
+      z-index: 20;
+      pointer-events: none;
+      line-height: 1.6;
+    }
+
+    .chart-legend {
+      display: flex;
+      gap: 14px;
+      margin-top: 8px;
+      font-size: 11px;
+      color: var(--muted);
+      align-items: center;
+    }
+
+    .legend-dot {
+      display: inline-block;
+      width: 8px; height: 8px;
+      border-radius: 2px;
+      margin-right: 4px;
+      vertical-align: middle;
+    }
+
+    /* ── Hot topics ── */
+    .topic-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-bottom: 24px;
+    }
+
+    .topic-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: var(--tag-bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 3px 8px 3px 10px;
+      font-size: 12px;
+      transition: border-color 0.15s;
+    }
+
+    .topic-tag:hover { border-color: var(--accent); }
+
+    .topic-count {
+      background: var(--accent);
+      color: #0d1117;
+      border-radius: 10px;
+      padding: 0 5px;
+      font-size: 10px;
+      font-weight: 700;
+      min-width: 16px;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
@@ -209,13 +318,31 @@
     <span>刷新间隔：<strong>60 秒</strong></span>
   </div>
 
+  <div class="section-title">频道活跃度（近2小时）</div>
+  <div class="activity-wrap">
+    <div class="chart-bars" id="activity-chart">
+      <div style="color:var(--muted);font-size:12px;align-self:center">加载中…</div>
+    </div>
+    <div class="chart-legend">
+      <span><span class="legend-dot" style="background:#f78166"></span>general</span>
+      <span><span class="legend-dot" style="background:#58a6ff"></span>algo-trading</span>
+      <span><span class="legend-dot" style="background:#3fb950"></span>manual-trading</span>
+      <span style="margin-left:auto;font-variant-numeric:tabular-nums" id="chart-range"></span>
+    </div>
+  </div>
+
+  <div class="section-title">热点话题</div>
+  <div class="topic-tags" id="hot-topics"></div>
+
+  <div class="section-title">策略情报</div>
   <div id="root">
     <div class="empty"><div class="spinner"></div>加载中…</div>
   </div>
 </main>
 
 <script>
-const RAW_URL = './insights.md?t=';
+const RAW_URL      = './insights.md?t=';
+const ACTIVITY_URL = './activity.json?t=';
 
 function parseInsights(md) {
   const sections = md.split(/\n---\n/);
@@ -293,6 +420,83 @@ function escHtml(s) {
   return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
 
+// ── Activity chart ────────────────────────────────────────────────────────────
+
+async function loadActivity() {
+  try {
+    const res = await fetch(ACTIVITY_URL + Date.now());
+    if (!res.ok) return;
+    const data = await res.json();
+    renderActivityChart(data);
+  } catch { /* silently ignore if file not yet available */ }
+}
+
+function renderActivityChart(data) {
+  const recent = data.slice(-24); // last 2 hours at 5-min intervals
+  if (!recent.length) return;
+
+  const maxTotal = Math.max(1, ...recent.map(d =>
+    (d.general || 0) + (d.algo || 0) + (d.manual || 0)));
+
+  const chart = document.getElementById('activity-chart');
+  chart.innerHTML = recent.map(d => {
+    const total = (d.general || 0) + (d.algo || 0) + (d.manual || 0);
+    const pct = v => Math.round((v / maxTotal) * 68);
+    const hG = pct(d.general || 0);
+    const hA = pct(d.algo    || 0);
+    const hM = pct(d.manual  || 0);
+    const hasData = total > 0;
+    return `
+      <div class="bar-col">
+        <div class="bar-seg bar-manual"  style="height:${hM}px"></div>
+        <div class="bar-seg bar-algo"    style="height:${hA}px"></div>
+        <div class="bar-seg bar-general" style="height:${Math.max(hasData?2:0,hG)}px"></div>
+        <div class="bar-tip">
+          ${d.ts.slice(11)} CT<br>
+          general <b>${d.general||0}</b> · algo <b>${d.algo||0}</b> · manual <b>${d.manual||0}</b>
+        </div>
+      </div>`;
+  }).join('');
+
+  if (recent.length >= 2) {
+    document.getElementById('chart-range').textContent =
+      `${recent[0].ts.slice(11)} – ${recent[recent.length-1].ts.slice(11)} CT`;
+  }
+}
+
+// ── Hot topics ────────────────────────────────────────────────────────────────
+
+const TOPIC_SKIP = new Set([
+  'The','This','Round','PnL','DP','No','UTC','And','For','With','Not',
+  'Also','But','From','That','Are','Has','Have','When','Been','Will',
+  'Can','May','More','Only','Into','Over','Each','Both','All','Any',
+]);
+
+function renderHotTopics(entries) {
+  const freq = {};
+  for (const e of entries) {
+    for (const b of e.bullets) {
+      const words = b.match(/\b([A-Z][a-zA-Z]{2,})\b/g) || [];
+      for (const w of words) {
+        if (!TOPIC_SKIP.has(w)) freq[w] = (freq[w] || 0) + 1;
+      }
+    }
+  }
+  const topics = Object.entries(freq)
+    .filter(([, c]) => c >= 2)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 20);
+
+  const el = document.getElementById('hot-topics');
+  if (!topics.length) {
+    el.innerHTML = '<span style="color:var(--muted);font-size:12px">暂无高频话题</span>';
+    return;
+  }
+  el.innerHTML = topics.map(([w, c]) =>
+    `<span class="topic-tag">${w}<span class="topic-count">${c}</span></span>`
+  ).join('');
+}
+
 async function load() {
   try {
     const res = await fetch(RAW_URL + Date.now());
@@ -300,6 +504,8 @@ async function load() {
     const text = await res.text();
     const entries = parseInsights(text);
     render(entries);
+    renderHotTopics(entries);
+    loadActivity();
     document.getElementById('last-fetch').textContent =
       '更新于 ' + new Date().toLocaleTimeString('zh-CN', {timeZone: 'America/Chicago'}) + ' CT';
   } catch (err) {
