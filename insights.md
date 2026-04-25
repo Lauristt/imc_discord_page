@@ -603,3 +603,11 @@ NO_INSIGHTS 的反面，已提取上述见解。
 - #algo-trading: 有人提议尝试gamma scalping策略（用于期权类product）
 
 ---
+
+## 2026-04-25 16:35
+
+- TTE（到期时间）在一天内递减，开盘为5，收盘为4
+
+</example>
+
+---
