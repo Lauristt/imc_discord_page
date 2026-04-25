@@ -298,3 +298,12 @@ NO_INSIGHTS之外的有效信息已提取。
 - manual-trading: 有选手认为manual trading的均衡价为835
 
 ---
+
+## 2026-04-25 09:55
+
+- #manual-trading: manual round公式中b2等于平均值时结果为1（连续），但超过平均后会快速衰减，策略关键是降低整体平均b2
+- #manual-trading: 有选手估计实际迭代竞争者数量约为总参赛人数的1/4到1/3
+
+NO_INSIGHTS的部分已过滤。
+
+---
