@@ -208,3 +208,12 @@ NO_INSIGHTS的反例，提取出的见解：
 NO_INSIGHTS之外的有效信息有限，多数为闲聊。
 
 ---
+
+## 2026-04-25 05:25
+
+- #algo-trading: 有选手提到3天回测PnL参考——有人达到525k，讨论是否有人达到750k，可作为benchmark参考
+- #algo-trading: 推荐使用rust backtester以获得更好的回测准确度
+- #algo-trading: 关于期权TTE计算的疑问——一round对应一天，回测时应使用data中的天数来计算TTE
+- #manual-trading: 有选手计划在第二轮bid出价920以拉高平均价、惩罚其他参赛者（manual trading博弈策略，需警惕高位竞价造成的影响）
+
+---
