@@ -249,10 +249,16 @@ function tagHtml(text) {
       '<span class="channel-tag tag-general">#general</span>');
 }
 
+function chicagoNow() {
+  return new Date(new Date().toLocaleString('en-US', {timeZone: 'America/Chicago'}));
+}
+
 function timeAgo(tsStr) {
   try {
+    // Both d and chicagoNow() are parsed as "local" values so the diff is correct
+    // regardless of the browser's actual timezone.
     const d = new Date(tsStr.replace(' ', 'T') + ':00');
-    const diff = Math.floor((Date.now() - d) / 60000);
+    const diff = Math.floor((chicagoNow() - d) / 60000);
     if (diff < 1)  return '刚刚';
     if (diff < 60) return `${diff} 分钟前`;
     const h = Math.floor(diff / 60);
@@ -296,7 +302,7 @@ async function load() {
     const entries = parseInsights(text);
     render(entries);
     document.getElementById('last-fetch').textContent =
-      '更新于 ' + new Date().toLocaleTimeString('zh-CN');
+      '更新于 ' + new Date().toLocaleTimeString('zh-CN', {timeZone: 'America/Chicago'}) + ' CT';
   } catch (err) {
     document.getElementById('root').innerHTML =
       `<div class="error-box">⚠️ 加载失败：${err.message}<br>
