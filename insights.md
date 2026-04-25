@@ -376,3 +376,13 @@ NO_INSIGHTS 部分已忽略闲聊。
 - manual trading 题目未披露对手方数量和最大PnL
 
 ---
+
+## 2026-04-25 11:40
+
+- Velvet产品有人做到9.3k PnL，目前20k+算不错的成绩
+- Hydrogen产品较难破解，benchmark约7k，Velvet约6.3k
+- 有人提到用Black-Scholes模型（暗示存在期权类产品）
+- 策略方向建议：均值回归、动量策略，避免单纯做市
+- 不建议依赖ChatGPT/Claude直接生成策略
+
+---
