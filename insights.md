@@ -692,3 +692,12 @@ NO_INSIGHTS 的反面，已提取上述见解。
 - Manual交易中各项独立服从均匀分布（每个有自己的分布参数）
 
 ---
+
+## 2026-04-25 17:55
+
+- #general: bot提示使用IV（隐含波动率）进行交易
+- #algo-trading: 硬编码TTE（到期时间）应该不会被取消资格，硬编码规则主要针对基于tick的值
+- #algo-trading: Hydrogel（氢凝胶）在3天回测器上有竞争力的目标PnL约100k
+- #manual-trading: 关于Nash均衡的猜测值，有人提出819而非836
+
+---
