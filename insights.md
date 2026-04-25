@@ -360,3 +360,11 @@ NO_INSIGHTS的部分已过滤。
 NO_INSIGHTS 部分已忽略闲聊。
 
 ---
+
+## 2026-04-25 10:56
+
+- MM在fair value ±5挂单是有效策略（针对某product）
+
+</result>
+
+---
