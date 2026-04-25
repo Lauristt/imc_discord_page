@@ -662,3 +662,13 @@ NO_INSIGHTS 的反面，已提取上述见解。
 - 建议warmup阶段可以硬编码anchor_fair_prices
 
 ---
+
+## 2026-04-25 17:15
+
+- algo-trading: 期权4000 strike策略在回测(27k)和实盘portal(30k)表现不一致，存在过拟合风险
+- algo-trading: 历史数据3天表现差异大(day1最高,day2最低)，因中间段数据特殊容易过拟合
+- algo-trading: 本轮position limits较高，鼓励对小信号全仓押注，变成方向性赌博
+- algo-trading: 有人尝试ARMA做hydrogel/macaron类产品，效果不佳；mean reversion也未达到他人宣称的水平
+- algo-trading: 增大仓位上限(100→300)可线性放大PnL，但同时放大风险
+
+---
