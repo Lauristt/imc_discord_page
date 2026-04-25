@@ -114,3 +114,11 @@
 - 关于波动率smile：应拟合二次（quadratic）smile
 
 ---
+
+## 2026-04-25 02:05
+
+- #manual-trading: B2轮手动交易最优出价约为836，预计Nash均衡集中在该值附近
+- #algo-trading: 部分选手认为Black-Scholes策略可能存在过拟合风险；R3无过拟合的benchmark讨论中，有人建议至少瞄准100k PnL目标
+- #algo-trading: 网站backtester数据归属日期（day 2或day 3）存在疑问，需注意验证
+
+---
