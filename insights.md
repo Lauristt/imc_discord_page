@@ -495,3 +495,11 @@ NO_INSIGHTS
 - 多位选手反映IV scalping策略难以稳定盈利，存在过拟合风险
 
 ---
+
+## 2026-04-25 14:35
+
+- #algo-trading: 期权没有到期日（expiry），按fair value结算，可参考wiki
+- #algo-trading: 选手反馈不使用vol smile拟合的简单策略反而表现更好，使用smile拟合需要做得很精细才有优势
+- #algo-trading: 网站实盘和本地backtester表现差异较大，存在较大随机性
+
+---
