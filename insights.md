@@ -648,3 +648,17 @@ NO_INSIGHTS 的反面，已提取上述见解。
 - Manual trading出价规则：出价必须严格高于reserve price才被接受（如reserve 800则需出801）
 
 ---
+
+## 2026-04-25 17:04
+
+#algo-trading
+- 本轮期权套利在考虑bid-ask spread后基本不存在
+- Vega和Gamma策略效果不佳，仅Delta方向性策略相对可行
+- 标的资产价格疑似为编码的随机游走
+- Bot流量太少不足以做市
+- 公允价值估计是关键难点：若开盘价格下跌5-10%，fair value估计会失效导致策略崩溃
+- 期权链中的"edge"与期权本身性质无关
+- 部分顶部成绩（~150k）疑似通过硬编码完美未来信息的方式获得，可能在最终结算被剔除
+- 建议warmup阶段可以硬编码anchor_fair_prices
+
+---
