@@ -166,3 +166,11 @@ NO_INSIGHTS的反例，提取出的见解：
 - #manual-trading: Manual round涉及Nash均衡博弈，多数人会预期对手出Nash+1从而选Nash+2，存在不断递进的策略螺旋，需要思考最优偏离点
 
 ---
+
+## 2026-04-25 03:20
+
+- #algo-trading: 多数队伍画出的波动率微笑曲线与数据拟合不佳，可在用BS定价各行权价期权前先更好地建模IV
+- #algo-trading: ATM期权偏离theo价格的幅度不够大，难以基于理论价做市
+- #manual-trading: 有玩家在第二个manual题（区间出价类）中考虑首个出价766，第二个出价863
+
+---
