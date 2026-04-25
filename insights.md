@@ -252,3 +252,13 @@ NO_INSIGHTS（其余多为闲聊和情绪发泄，无实质策略信息）
 - Velvet extract（VV）也是主要利润贡献品种之一
 
 ---
+
+## 2026-04-25 08:00
+
+- #algo-trading: 3天回测中，部分选手PnL达500k-620k，主要来自Velvet+Options（约400k）和Hydrogel（约100k）。
+- #algo-trading: 期权做市难以突破几百PnL，效果不佳。
+- #algo-trading: 调参后曲线形状相似，提示可能存在过拟合和较大回撤风险。
+- #algo-trading: 期权年化时间基准（365 vs 252天）以及EOD是否应平仓为待解决问题。
+- #manual-trading: 双出价manual题目中，最优单出价为792.5；两个出价时应满足"670到b1的距离 = b1到b2的距离"的对称关系，以平衡获取低价卖家与扩大市场覆盖。
+
+---
