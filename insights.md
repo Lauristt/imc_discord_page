@@ -271,3 +271,12 @@ NO_INSIGHTS（其余多为闲聊和情绪发泄，无实质策略信息）
 (algo-trading频道无实质性见解)
 
 ---
+
+## 2026-04-25 08:40
+
+- algo-trading: 期权策略提示——用Black-Scholes理论价与市场价比较，对偏离进行scalping
+- algo-trading: 有人观察到期权波动率呈"微笑"形态（vol smile）
+
+NO_INSIGHTS之外的有效信息已提取。
+
+---
