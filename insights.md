@@ -573,3 +573,12 @@ NO_INSIGHTS 的反面，已提取上述见解。
 - manual频道：B1出价逻辑——填充所有低于你出价的卖家，盈利约为(出价-真实价值)*下方卖家成交量
 
 ---
+
+## 2026-04-25 16:19
+
+- #algo-trading: 期权类衍生品不应简单当作均值回归资产处理，要思考真正会均值回归的是什么（如IV/价差），否则策略会突然失效
+- #algo-trading: 有玩家提到改用gamma short替代gamma hedging
+- #algo-trading: Round 3不评估pepper和osmium
+- #manual-trading: 关于平均值估计区间讨论：790-830、840-880或870-885不等；cubic惩罚显著压低EV，需考虑博弈论因素（多数人会直接照搬Claude给出的答案）
+
+---
