@@ -157,3 +157,12 @@ NO_INSIGHTS的反例，提取出的见解：
 - IMC官方回测器全天总分约50万属于较好水平，参考值约21k/17k为单日bc分数
 
 ---
+
+## 2026-04-25 03:05
+
+- #algo-trading: 期权题目的官方提示建议为每个strike计算IV，寻找其规律（如IV曲线），并据此估算fair value和做市，而非简单套用Black-Scholes
+- #algo-trading: 有选手反馈在期权定价上自定义方法比直接用BS效果更好
+- #algo-trading: 官方sandbox似乎只模拟1天数据，部分选手用本地backtester模拟全部3天得到更高PnL（如150k级别），换算时注意单位差异（约10倍）
+- #manual-trading: Manual round涉及Nash均衡博弈，多数人会预期对手出Nash+1从而选Nash+2，存在不断递进的策略螺旋，需要思考最优偏离点
+
+---
