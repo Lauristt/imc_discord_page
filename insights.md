@@ -77,3 +77,40 @@
 - 期权定价需理解理论模型（Black-Scholes等），不能仅靠经验调参
 
 ---
+
+## 2026-04-25 01:23
+
+- 简单策略示例：对ore使用纯做市策略以9999为中心；peppers采用buy and hold策略
+- Round 3核心思路：交易vouchers配合对应underlying（期权对冲标的）
+- 警告：官方提供的数据集中含有线上测试数据，使用时容易过拟合，误导真实表现
+- 回测工具：可使用Rust backtester（pip install imc-p4-bt，0.4.7版本），将submission.log放入datasets目录运行可获得接近提交portal的PnL
+- 数据集差异：backtester数据集每个product每天有10k ticks，但提交portal只有1k ticks，因此回测PnL与实盘差距很大
+- Velvet估值难点：大多数人假设有效市场，但目前缺乏明确的fair value计算方法（有人提到Black-Scholes）
+- 期权smile拟合建议使用quadratic（二次）形式
+- 最优算法约-67k起步，说明该轮整体偏难，部分高PnL（如100k+）多为过拟合结果
+
+---
+
+## 2026-04-25 01:35
+
+- 推荐使用 prosperity.equirag.com 的 dashboard（Round 3）按 Day 和 product/voucher 过滤回测数据
+- 提醒：网站回测数据不等于隐藏评测数据，回测高分仅供参考
+- 可参考开源模板代码：github.com/TimoDiehm/imc-prosperity-3 的 FrankfurtHedgehogs_polished.py，复用框架但自行实现交易函数
+
+---
+
+## 2026-04-25 01:50
+
+#general
+- 有选手在ore（疑似某product）使用纯做市策略以9999为中心报价
+- peppers采用买入持有策略
+- 服务器实际数据每个产品每天仅1k ticks，而提供的回测数据集有10k ticks，差异巨大易导致过拟合
+
+#algo-trading
+- Round 3 提示方向：用vouchers（凭证/期权）与underlying配对交易
+- 比赛提供的在线测试数据集与训练集相同，存在数据泄露风险，但用此过拟合不可靠
+- 回测器（imc-p4-bt v0.4.7）若把submission.log放入datasets目录运行，可生成贴近提交端的proxy数据集，PnL与提交结果接近
+- 多数人对velvet使用efficient market假设而非Black-Scholes计算FV，FV计算方法存在分歧
+- 关于波动率smile：应拟合二次（quadratic）smile
+
+---
