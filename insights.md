@@ -326,3 +326,10 @@ NO_INSIGHTS的部分已过滤。
 - #manual-trading: 另有观点认为很少人会报超过860，多数会选770-780，保守策略可选830附近
 
 ---
+
+## 2026-04-25 10:20
+
+- #algo-trading: 选手普遍认为portal提交>50k分数的策略多为过拟合（如硬编码或大型NN），合理估计最大约为1M/30≈33k；正确建模fair price是关键
+- #manual-trading: 第二轮manual中bid因子奖励上限为1（不是PnL倍数）；"higher than reserve price"应理解为严格大于(>)，因此报851优于850以对冲边界情况
+
+---
