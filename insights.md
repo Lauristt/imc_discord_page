@@ -564,3 +564,12 @@ NO_INSIGHTS 的反面，已提取上述见解。
 - manual-trading: 提醒注意 `>` 与 `>=` 边界条件的区别，b1=670 可能因此判断失误（manual交易区间选择需谨慎处理临界值）
 
 ---
+
+## 2026-04-25 16:09
+
+- algo频道：VOLCANIC_ROCK_VOUCHER（velvetfruit extract options）是欧式期权，不能提前行权；有人用波动率smile策略获利，建议交易除6000和6500行权价之外的所有strike
+- algo频道：简单方法在extract options上可获得约85k PnL；DP方法被认为是hardcode过拟合
+- manual频道：B1拍卖中，安全低风险出价675/920可得24-25k；出价920意味着按920成交利润为0，需平衡保守与激进
+- manual频道：B1出价逻辑——填充所有低于你出价的卖家，盈利约为(出价-真实价值)*下方卖家成交量
+
+---
