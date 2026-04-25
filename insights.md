@@ -386,3 +386,17 @@ NO_INSIGHTS 部分已忽略闲聊。
 - 不建议依赖ChatGPT/Claude直接生成策略
 
 ---
+
+## 2026-04-25 11:45
+
+- #algo-trading: 关于期权估值时间问题——TradingState中没有day字段，选手讨论如何在trader.py中确定当前是第几天（这对期权定价的剩余到期时间计算很重要）
+
+</result>
+
+NO_INSIGHTS
+
+等等，上面已经提到了一个有价值的问题点。重新整理：
+
+- #algo-trading: 期权估值需要知道当前比赛日（day），但TradingState中不包含day字段，需要自行解决（如通过timestamp推断或硬编码）以正确计算剩余到期时间
+
+---
