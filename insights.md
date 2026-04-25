@@ -528,3 +528,15 @@ NO_INSIGHTS
 NO_INSIGHTS之外的有效信息已提取。
 
 ---
+
+## 2026-04-25 15:00
+
+- hydrogel采用均值回归策略可获得约8k收益
+- 有选手考虑不交易velvet fruit extract以最大化利润
+- 短期模拟为10万点、间距100；最终模拟为100万点、相同间距
+
+</result>
+
+NO_INSIGHTS 的反面，已提取上述见解。
+
+---
