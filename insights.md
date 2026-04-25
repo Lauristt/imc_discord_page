@@ -596,3 +596,10 @@ NO_INSIGHTS 的反面，已提取上述见解。
 - Manual trading的bid2 penalty被认为是对整体PnL一次性应用，而非每笔交易乘算
 
 ---
+
+## 2026-04-25 16:25
+
+- #algo-trading: Round相关讨论中提到HG（可能是某product）在官网回测约20k PnL，开源回测50-60k/天；过拟合上限约40k
+- #algo-trading: 有人提议尝试gamma scalping策略（用于期权类product）
+
+---
