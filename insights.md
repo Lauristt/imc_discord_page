@@ -672,3 +672,14 @@ NO_INSIGHTS 的反面，已提取上述见解。
 - algo-trading: 增大仓位上限(100→300)可线性放大PnL，但同时放大风险
 
 ---
+
+## 2026-04-25 17:15
+
+- algo-trading: 4000 strike期权回测盈利但在portal上表现较差(27k vs 30k)，可能存在过拟合风险
+- algo-trading: 第3轮历史数据3天的PnL分布通常是Day1最高、Day2最低（中间那段导致）
+- algo-trading: 本轮position limits较高，鼓励选手在轻微信号上重仓博弈，增加了过拟合诱惑
+- algo-trading: 网站数据有一些异常dips，更容易过拟合
+- algo-trading: hydrogel(volcanic rock相关)有人尝试ARMA无效，均值回归也未得到高分
+- algo-trading: 高仓位限制被认为是为了 disincentivize full delta hedge
+
+---
