@@ -351,3 +351,12 @@ NO_INSIGHTS的部分已过滤。
 - #algo-trading: 波动率微笑曲线对option vouchers定价是官方hints提到的方向，值得用真实BS模型拟合而非硬编码系数
 
 ---
+
+## 2026-04-25 10:55
+
+- #algo-trading: 单纯的均值回归(MR)策略上限约8k-10k PNL，要突破需要更复杂的方法
+- #algo-trading: 期权(volatility smile)策略建议：分别为3天各构建一条smile曲线，观察不同合约价格的演变规律
+
+NO_INSIGHTS 部分已忽略闲聊。
+
+---
