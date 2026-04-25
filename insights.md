@@ -192,3 +192,9 @@ NO_INSIGHTS的反例，提取出的见解：
 - #manual-trading: 关于manual trading题目的均匀分布解读：bid在670-920之间以5为步长均匀分布，即每个bid档位的对手方数量相同。
 
 ---
+
+## 2026-04-25 04:10
+
+- #algo-trading: Wiki中历史数据day标注存在歧义讨论——TTE=8d对应tutorial round（historical day 1），TTE=7d对应Round 1（day 2），TTE=6d对应Round 2（day 3），需确认对应给定数据中的day 0还是day 1。
+
+---
