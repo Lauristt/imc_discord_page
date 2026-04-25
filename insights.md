@@ -433,3 +433,13 @@ NO_INSIGHTS
 </invoke>
 
 ---
+
+## 2026-04-25 13:00
+
+- Hydrogel可尝试均值回归策略，类似osmium
+- 每份option合约对应1单位velvets
+- 不交易也是一种选择（无损失）
+
+</result>
+
+---
