@@ -333,3 +333,12 @@ NO_INSIGHTS的部分已过滤。
 - #manual-trading: 第二轮manual中bid因子奖励上限为1（不是PnL倍数）；"higher than reserve price"应理解为严格大于(>)，因此报851优于850以对冲边界情况
 
 ---
+
+## 2026-04-25 10:40
+
+- #algo-trading: vouchers到期为5M ticks（5轮）
+- #algo-trading: 有选手用Black76模型计算voucher的fair price，并观察各合约相对fair price的联动性来设计策略
+- #algo-trading: 交易期权前需先理解合约间的市场联动关系（comovement）
+- #manual-trading: 有人manual trading选择836作为答案
+
+---
