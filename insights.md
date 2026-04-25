@@ -243,3 +243,12 @@ NO_INSIGHTS之外的有效信息有限，多数为闲聊。
 NO_INSIGHTS（其余多为闲聊和情绪发泄，无实质策略信息）
 
 ---
+
+## 2026-04-25 07:45
+
+- Hydrogel（hydro）被多人提到是主要利润来源，long-only momentum策略效果好
+- 建议放弃options，专注交易hydrogel
+- 提到本轮PnL上限约154k，达到80-90k即较安全
+- Velvet extract（VV）也是主要利润贡献品种之一
+
+---
