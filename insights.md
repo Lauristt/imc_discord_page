@@ -407,3 +407,12 @@ NO_INSIGHTS
 - 有人认为期权的mispricing较为边际（marginal），盈利空间有限
 
 ---
+
+## 2026-04-25 12:10
+
+- #algo-trading: 有选手采用统计套利风格策略，基于定价模型给出的fair value交易偏离值
+- #algo-trading: 期权定价使用py_vollib库计算greeks/价格/IV曲面，采用Black-Scholes模型
+- #algo-trading: 关于隐含波动率维度的讨论——由于只有一个到期日，IV曲面实际上是2D（仅依赖moneyness/strike），而非3D/4D
+- #algo-trading: 有选手通过观察图形直接硬编码参数获得不错PnL，但其他人质疑这种方法在完整数据集上可能失效
+
+---
