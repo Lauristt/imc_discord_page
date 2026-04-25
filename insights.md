@@ -400,3 +400,10 @@ NO_INSIGHTS
 - #algo-trading: 期权估值需要知道当前比赛日（day），但TradingState中不包含day字段，需要自行解决（如通过timestamp推断或硬编码）以正确计算剩余到期时间
 
 ---
+
+## 2026-04-25 12:06
+
+- 期权策略关键：识别某些期权持续被错误定价，并用它们进行delta对冲（platyturtle提示）
+- 有人认为期权的mispricing较为边际（marginal），盈利空间有限
+
+---
