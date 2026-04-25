@@ -463,3 +463,12 @@ NO_INSIGHTS
 - 有选手放弃交易hydrogel，专注其他产品
 
 ---
+
+## 2026-04-25 13:35
+
+- Rust backtester和prosperity4btx结果不一致的问题（可能存在实现差异）
+- 选手反馈：策略在backtester上40k/天，但sim中只有10k，sim数据可能与backtester存在偏差，策略易过拟合sim数据
+- 现有backtester存在已知偏差，需注意
+- Hydro相关策略在短期回测表现好，但3天完整回测可能巨亏(-667k)，需警惕短期过拟合
+
+---
