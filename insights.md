@@ -225,3 +225,11 @@ NO_INSIGHTS之外的有效信息有限，多数为闲聊。
 - Hydrogel（Magnificent Macarons类似品种）简单策略可获约8k PnL
 
 ---
+
+## 2026-04-25 06:40
+
+- manual-trading: 出价必须严格高于reserve price（>而非≥），bid等于reserve不成交
+- algo-trading: 期权策略仅hydrogel单品种PnL约3.2k左右；整体合理无过拟合的PnL目标约15-20k，顶级约100k
+- algo-trading: 多人反馈day 2回测亏损/回撤明显，需关注drawdown控制
+
+---
