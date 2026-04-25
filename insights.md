@@ -198,3 +198,13 @@ NO_INSIGHTS的反例，提取出的见解：
 - #algo-trading: Wiki中历史数据day标注存在歧义讨论——TTE=8d对应tutorial round（historical day 1），TTE=7d对应Round 1（day 2），TTE=6d对应Round 2（day 3），需确认对应给定数据中的day 0还是day 1。
 
 ---
+
+## 2026-04-25 05:05
+
+- hydrogel/hydro产品讨论：有人2k PnL波动大，有人20k甚至154k但疑似过拟合，社区怀疑高分多为硬编码最优解
+- voucher的TTE存在争议：5天还是8天（影响期权定价）
+- manual trading讨论中提到820这个数值被认为不错，5.5也被提及为更优选择（具体题目背景不明）
+
+NO_INSIGHTS之外的有效信息有限，多数为闲聊。
+
+---
