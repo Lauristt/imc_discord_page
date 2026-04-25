@@ -540,3 +540,9 @@ NO_INSIGHTS之外的有效信息已提取。
 NO_INSIGHTS 的反面，已提取上述见解。
 
 ---
+
+## 2026-04-25 15:10
+
+- Manual trading界面字段说明：网站UI中的"lowest bid"对应bid 1，"highest bid"对应bid 2
+
+---
