@@ -289,3 +289,12 @@ NO_INSIGHTS之外的有效信息已提取。
 - #manual-trading: 出价超过880对自身收益帮助很小（manual题相关价格区间参考）
 
 ---
+
+## 2026-04-25 09:40
+
+- algo-trading: 有选手Round 3三天分别盈利约90k/112k/67k，总计270k，可作为策略效果参考
+- algo-trading: 推荐使用 nabayansaha/imc-prosperity-4-backtester 作为回测工具（但似乎缺Round 3数据）
+- algo-trading: 关于期权TTE，推测在交易日内固定不变，不随intraday timestamp变化（未确认）
+- manual-trading: 有选手认为manual trading的均衡价为835
+
+---
