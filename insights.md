@@ -854,3 +854,11 @@ NO_INSIGHTS其余频道无实质策略信息
 NO_INSIGHTS之外的信息有限，主要是PnL闲聊。
 
 ---
+
+## 2026-04-25 21:37
+
+- #algo-trading: Hydrogel均值回归思路——基于N期移动均值计算z-score，过高则卖、过低则买
+- #algo-trading: Volcanic voucher期权的DTE被讨论为5天
+- #manual-trading: 关于Nash均衡讨论，有人认为最优值约794，另有人认为22k队伍下Nash均衡为836，可能加价+5到+10
+
+---
