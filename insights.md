@@ -981,3 +981,12 @@ NO_INSIGHTS（部分）但已有上述要点。
 - #manual-trading: Round 2顶尖队伍在speed上的配置约在40%左右（待确认）；speed有较重的惩罚
 
 ---
+
+## 2026-04-25 22:50
+
+- 硬编码z-score策略在第3天数据上可能失效，需谨慎（来自#general）
+- 回测930k为不错成绩，但需在3天数据上都表现良好才稳妥（来自#general）
+- 本地回测分数与网站分数比例参考：本地40k约对应网站4k（来自#algo-trading）
+- 各模块得分参考：hydro 2k、volcanic（vev）6k、options 10k；其中hydro偏低，options可达较高水平（来自#algo-trading）
+
+---
