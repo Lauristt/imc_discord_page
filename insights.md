@@ -791,3 +791,13 @@ NO_INSIGHTS其余频道无实质策略信息
 - #manual-trading: 关于B2出价猜测：主要集中在841或846附近，AI推荐价格可能在836左右，可作为博弈参考
 
 ---
+
+## 2026-04-25 20:40
+
+- #algo-trading: 官方网站回测（25k级别）比第三方完整3天回测（500k+）更具参考价值，因为TTE（到期时间）在第三方backtester中未正确建模
+- #algo-trading: 每次执行有时间限制
+- #algo-trading: 推荐的开源回测器：prosperity_rust_backtester (GeyzsoN/GitHub)
+- #algo-trading: 使用backtester仍可帮助识别策略中的反趋势弱点
+- #manual-trading: 每个卖家的reserve price是独立的均匀分布随机数，不是只投b1就行
+
+---
