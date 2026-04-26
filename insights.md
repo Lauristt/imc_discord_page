@@ -1752,3 +1752,12 @@ NO_INSIGHTS对其他频道。
 - #algo-trading: 回测与实盘结果差异巨大（有人回测-7k实盘+131k），原因是官方回测仅使用了Day2的子集数据，回测结果参考价值有限
 
 ---
+
+## 2026-04-26 09:00
+
+- #algo-trading: 排行榜portal显示的PnL约为完整一天的10%（即10x换算），最高算法约35万PnL
+- #algo-trading: R4和R5使用相同产品，R3表现好的选手在R4/R5可继续优化
+- #manual-trading: B2手动交易最优解为761/861
+- #manual-trading: 注意B2底部总投资计算使用的是volume而非volume*3000的数量
+
+---
