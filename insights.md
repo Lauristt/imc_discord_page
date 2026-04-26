@@ -1254,3 +1254,14 @@ NO_INSIGHTS（其余多为闲聊和工具讨论，无实质策略内容）
 - 期权回测算法部分PnL目标约30k
 
 ---
+
+## 2026-04-26 01:35
+
+- #algo-trading: 有选手指出最大硬编码（hardcode timestamps作弊）PnL约154-155k，超过此值基本不可能，疑似有人作弊
+- #algo-trading: 单日PnL约30-45k被认为是较好水平，130k总分（不含options）属于较高
+- #algo-trading: Options上400 PnL不算好
+- #algo-trading: 警惕图表末端flatline和drawdown表现，overall PnL不是好指标
+- #manual-trading: Manual round选手讨论gabagool报价，多人收敛在820-825附近，825被认为是较优选择
+- #manual-trading: 提示题目中所谓"bids"实际是卖家的reserve prices（卖给你），需要正确理解题意
+
+---
