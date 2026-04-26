@@ -935,3 +935,13 @@ NO_INSIGHTS（其余消息多为闲聊或无实质信息）
 - Hydrogel(?)产品有人获得约8.5k收益，被认为偏低
 
 ---
+
+## 2026-04-25 22:32
+
+- #algo-trading: 有人在Hydro产品上跑IV smile策略，PnL在10k-90k区间不等，700k为高位回测结果（可能过拟合）
+- #algo-trading: prosperity4bt回测器假设市场单先于他人成交，但PnL影响可忽略
+- #algo-trading: 推荐的回测工具仓库 github.com/nabayansaha/imc-prosperity-4-backtester
+- #manual-trading: 关于B1价格讨论，有人认为B1独立于B2为751，被反驳
+- #manual-trading: manual题机制讨论：交易未成交不得分，成交则从XIRECS扣除支付金额
+
+---
