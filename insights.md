@@ -1789,3 +1789,12 @@ NO_INSIGHTS对其他频道。
 - manual-trading: 总交易量为200×3000=600000 lots，AC本身也乘以3k
 
 ---
+
+## 2026-04-26 09:30
+
+- #manual-trading: Round 4手动题涉及期权定价，价格遵循随机过程，需估计可能路径来决定交易
+- #manual-trading: 时间设定为年化252个交易日，每周5个交易日；T+21指距到期21个Solvenarian日（非全部为交易日），从Round 1的Intara开始计算
+- #manual-trading: AC_40_BP为Aether Crystal二元看跌期权，行权价40 XIRECs，到期21日；若到期价低于40则支付固定10 XIRECs，否则归零
+- #manual-trading: 由于模拟过程细节已知，给奇异期权定价并不比普通期权难多少
+
+---
