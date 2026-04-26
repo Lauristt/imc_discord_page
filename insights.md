@@ -1048,3 +1048,13 @@ NO_INSIGHTS 之外仅以上要点。
 - #manual-trading: 可参考Round 2算法竞价分布作为参照，若trolls多则竞价会异常偏高；实际Round 2结果接近Nash均衡，说明多数参赛者理性
 
 ---
+
+## 2026-04-25 23:40
+
+- manual-trading: 关于第二轮bid的平均值预测讨论，认为不会低于835，估计在835-867之间
+
+</result>
+
+NO_INSIGHTS（实际有少量信息，输出上面那条）
+
+---
