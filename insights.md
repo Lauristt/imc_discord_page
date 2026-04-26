@@ -2108,3 +2108,11 @@ NO_INSIGHTS（其余消息无实质策略信息）
 NO_INSIGHTS（其余消息为闲聊或提问无答案）
 
 ---
+
+## 2026-04-26 15:19
+
+- #manual-trading: manual round的价格模拟基于GBM（几何布朗运动），需关注drift、波动率sigma、风险r等参数，参考wiki可推导策略
+- #algo-trading: 硬编码均值是常见做法，但加fallback机制如未充分回测可能反而出问题；建议构建MC backtester验证鲁棒性改动
+- #algo-trading: 网站参考分数约40k为不错成绩，bench PnL约20k
+
+---
