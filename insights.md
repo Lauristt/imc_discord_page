@@ -2132,3 +2132,16 @@ NO_INSIGHTS其余内容均为闲聊。
 - 技术细节：使用round 4数据计算voucher时，day 0/1/2对应的TTE分别为7/6/5
 
 ---
+
+## 2026-04-26 16:15
+
+#algo-trading
+- 有选手仅用基础做市策略在所有资产上获得9k盈利
+- 关于EMA计算fair value存在中间价vs最后成交价的选择讨论
+- 关于vouchers策略：部分选手对所有类型都交易，但有人发现某些类型始终亏损，考虑筛选交易标的
+- 观点：butterfly策略要到最后交易日才有效，因为每round相当于推进一天到期
+
+#manual-trading
+NO_INSIGHTS
+
+---
