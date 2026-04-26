@@ -1798,3 +1798,11 @@ NO_INSIGHTS对其他频道。
 - #manual-trading: 由于模拟过程细节已知，给奇异期权定价并不比普通期权难多少
 
 ---
+
+## 2026-04-26 09:50
+
+- manual-trading: 有人通过Nash均衡得出报价(781, 886)，认为建模不确定性很重要因为更高bid更安全；另一人给出Nash公式 670+2(250)/3 ≈ 836
+- manual-trading: Round 4的TTE为18个常规日（12个交易日），aether crystal从价格50开始模拟12个交易日
+- algo-trading: 有人询问如何使用counterparty信息（self.buyer/self.seller返回值），暗示Round 4新增了交易对手方数据可用于策略
+
+---
