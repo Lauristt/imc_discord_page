@@ -2162,3 +2162,10 @@ NO_INSIGHTS
 - 部分选手采用delta中性套利或IV smile scalping策略应对该manual
 
 ---
+
+## 2026-04-26 16:55
+
+- Olivia交易信息延迟一个timestamp可见：若Olivia在13100下单，需到13200才能从Trade类的buyer/seller字段识别（algo-trading）
+- 有人提到hydro（可能指某product）存在明显套利/免费收益机会（algo-trading）
+
+---
