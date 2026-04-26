@@ -1806,3 +1806,10 @@ NO_INSIGHTS对其他频道。
 - algo-trading: 有人询问如何使用counterparty信息（self.buyer/self.seller返回值），暗示Round 4新增了交易对手方数据可用于策略
 
 ---
+
+## 2026-04-26 09:51
+
+- Manual trading（出价博弈题）：参赛者讨论双重出价的最优策略，认为bid1应匹配严格低于的reserve价，bid2再覆盖剩余对手；由于bid2收益依赖bid1，需联合优化。若只有单一bid，791或796可能最优，但联合优化下bid1应在761附近。
+- 简化假设：可假设bids为1 mod 5以简化计算；不确定项是所有人的平均bid。
+
+---
