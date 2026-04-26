@@ -1683,3 +1683,12 @@ NO_INSIGHTS对其他频道。
 - #algo-trading: 网站显示的backtest使用的是Day 2前10000个时间戳，而Round 3实际在全新Day 3数据上运行，导致网站预览pnl与实际live pnl差异巨大（如backtest 510k vs live 50k）
 
 ---
+
+## 2026-04-26 07:55
+
+- #manual-trading: Round 3 manual题目疑似为博弈论(GTO)问题，可用蒙特卡洛求解；获得manual第一名的出价组合为761/861；有人提到857/858等其他出价。
+- #algo-trading: 教程中的基础market making算法表现优于多数自制策略，提示基础MM策略在此轮有效。
+- #algo-trading: 有选手提到该轮价格图表呈现mean reversion特征，可考虑均值回归策略。
+- #algo-trading: 回测器结果与实盘差异较大，多人回测负PnL但实盘正PnL，回测可信度低。
+
+---
