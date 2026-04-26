@@ -1947,3 +1947,9 @@ NO_INSIGHTS对其他无实质内容部分
 - IMC官方backtest也是可靠选择
 
 ---
+
+## 2026-04-26 12:12
+
+- IV曲线建模时应包含所有voucher，这样才能呈现volatility smile形态（#algo-trading）
+
+---
