@@ -1392,3 +1392,20 @@ NO_INSIGHTS之外的有效信息已提取完毕。
 - manual-trading: 出价末位选择（如xx5 vs xx1）在B1中无影响，但在其他题目中报价位数会影响中标量与利润，存在量与利的权衡，可考虑双边布局两头吃利润
 
 ---
+
+## 2026-04-26 03:55
+
+基于消息内容，提取有价值的见解：
+
+=== #algo-trading ===
+- 在线测试数据是Day 2的子集，过往轮次也是如此（不仅限于本轮）
+- Hydrogel/期权策略表现：多数选手3天总PNL在75k-135k之间，能正确处理IV交易的选手可能领先一大截
+- 有选手怀疑IV smile可能是误导信号（red herring）
+- 一份较好的backtest参考结果：3天总PNL约851k，其中HYDROGEL_PACK ~146k，VELVETFRUIT_EXTRACT ~63k，VEV系列期权按行权价分布（5000档最高约137k，越偏离ATM贡献越小，6000/6500档无PNL）
+- IMC官方backtester与本地backtester结果差异显著，需注意
+
+=== #manual-trading ===
+- 上轮manual提交多数集中在均衡点+10范围内，但并不存在唯一均衡
+- 部分团队选择无风险speed=0策略，会使分布有偏
+
+---
