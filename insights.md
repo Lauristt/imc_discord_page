@@ -1953,3 +1953,11 @@ NO_INSIGHTS对其他无实质内容部分
 - IV曲线建模时应包含所有voucher，这样才能呈现volatility smile形态（#algo-trading）
 
 ---
+
+## 2026-04-26 12:15
+
+- 有玩家观察到：在hydrogel(volcano rock?)产品上，"Mark 38"始终是aggressor（主动吃单方），而"Mark 14"则被动接受其报价，可能可作为信号利用
+- 深度实值期权(deep ITM)的定价表现异常，多名选手无法解释，常规模型在Prosperity 4中不适用
+- Hydrogel交易思路讨论：可同时做market making和mean reversion
+
+---
