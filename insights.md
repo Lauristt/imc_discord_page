@@ -2145,3 +2145,11 @@ NO_INSIGHTS其余内容均为闲聊。
 NO_INSIGHTS
 
 ---
+
+## 2026-04-26 16:35
+
+- manual-trading: 100次模拟样本量较小，结果方差极大（-500k到+500k范围），单纯选最高EV策略未必能赢
+- manual-trading: 模拟数百万次后仍显示高度随机性，全押方向性策略风险大
+- manual-trading: 选手估计manual部分难以盈利超过100-150k
+
+---
