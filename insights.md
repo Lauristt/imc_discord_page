@@ -917,3 +917,12 @@ NO_INSIGHTS（其余消息多为闲聊或无实质信息）
 - #manual-trading: 提醒注意有顶尖选手运行Discord爬虫抓取报价信息，频道里故意诱导高报价（如920）属于反向操纵行为，需独立判断
 
 ---
+
+## 2026-04-25 22:22
+
+- #algo-trading: 真实回合的tick数是网站测试的10倍，因此本地backtester（开源Rust版本）的PnL通常比IMC网站显示的高约10倍，这解释了两者差异
+- #algo-trading: Volcanic/Velvet fruit策略PnL参考：网站约300k，部分选手33k级别被认为可能过拟合
+- #manual-trading: Discord抓取的猜数答案被大量meme值（如920）严重偏斜，需剔除异常值，但整体仍不可靠
+- #manual-trading: 有人指出在reserve价上下出价才有效；故意误导他人不会真正"击败"对手，反而抬高均值增加自己亏损概率
+
+---
