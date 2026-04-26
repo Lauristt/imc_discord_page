@@ -1315,3 +1315,10 @@ NO_INSIGHTS之外的有效信息已提取完毕。
 - 有人提到Prosperity 2和3中类似的"hardcode/oracle schedule"策略仍然奏效
 
 ---
+
+## 2026-04-26 02:45
+
+- #algo-trading: 有选手指出manual trading硬编码上限约为155k，对于报出600k+成绩的选手存疑（可能涉及过拟合或其他方式）
+- #manual-trading: 有选手提出疑问——第一个bid的最大PnL是否独立于第二个bid的位置及他人的bid（涉及双bid manual题机制理解）
+
+---
