@@ -781,3 +781,13 @@ NO_INSIGHTS其余频道无实质策略信息
 - Hydrogel packs策略讨论：有人用短期均值回归，有人选择buy and hold
 
 ---
+
+## 2026-04-25 20:20
+
+- #algo-trading: 警告不要为网站PnL过度优化，10k timestamps数据无法反映全貌，容易过拟合
+- #algo-trading: Day 2回测中均值回归策略与趋势冲突，表现较差
+- #algo-trading: 部分选手使用Rust编写回测器
+- #algo-trading: 策略思路：hydrogel用均值回归，velvet voucher用IV（隐含波动率），但PnL不稳定，后期会回吐
+- #manual-trading: 关于B2出价猜测：主要集中在841或846附近，AI推荐价格可能在836左右，可作为博弈参考
+
+---
