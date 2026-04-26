@@ -1472,3 +1472,20 @@ NO_INSIGHTS（#general 无实质信息）
 - 多人提醒高PnL可能来自overfit，需警惕
 
 ---
+
+## 2026-04-26 05:12
+
+=== #manual-trading ===
+- 历史经验：往年Prosperity manual trading的结果比预期更接近Nash均衡，建议参考Nash策略而非过度激进
+- 弱Nash均衡点位于751和836（第三分位点），有人估计bid2最优值在895左右
+- 部分玩家认为bid2 100%置信区间在838-848，押注接近Nash
+- 惩罚策略思路：对冲选836者的最大有效惩罚约为876（再高成本过大）
+
+=== #algo-trading ===
+- Round 3提示：Pepper（新product）相关信息隐藏在wiki的"box"里，需仔细查看
+- 讨论中提及position limit可能为50或200，需根据wiki确认
+- 部分选手在Pepper上出现crash/巨额亏损，新product算法需谨慎处理边界情况
+
+（其余多为玩梗和闲聊，无实质信息）
+
+---
