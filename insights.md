@@ -1322,3 +1322,14 @@ NO_INSIGHTS之外的有效信息已提取完毕。
 - #manual-trading: 有选手提出疑问——第一个bid的最大PnL是否独立于第二个bid的位置及他人的bid（涉及双bid manual题机制理解）
 
 ---
+
+## 2026-04-26 02:50
+
+- #algo-trading: 3天回测约600的PnL大致对应IMC官方portal上约20k（公式≈600/3/10）
+- #algo-trading: 有人通过硬编码（hardcoding）在3日回测获得150k+，livesim能达90k
+- #algo-trading: 普遍提到通过过拟合/硬编码来提升分数，未硬编码者难突破8k-20k
+- #manual-trading: 第一标价(b1)应直接选择期望值最高的价格，不应偏离最大EV；因为b2价格高于b1，需在b1价位最大化中标量
+- #manual-trading: 出价不必是5的倍数
+- #manual-trading: 最优first bid与avgb2相关（有争议）
+
+---
