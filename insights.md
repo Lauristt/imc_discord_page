@@ -963,3 +963,13 @@ NO_INSIGHTS（其余消息多为闲聊或无实质信息）
 NO_INSIGHTS（部分）但已有上述要点。
 
 ---
+
+## 2026-04-25 22:42
+
+- #general: hydrogel 的订单簿中存在做市机器人，可通过观察订单簿提取"true price"指标
+- #general: 期权定价方面有人推荐使用二项式模型（binomial）优于 BS
+- #algo-trading: 关注完整回测的 PnL 而非 web preview 的 1k tick PnL，预览 PnL 意义不大
+- #algo-trading: VolcanicRock（vev）底层资产用 VWAP z-score 策略（不交易期权）可获得约 6k PnL，但随机种子变化可能导致策略失效
+- #algo-trading: 提交时需注意随机种子敏感性，避免过拟合
+
+---
