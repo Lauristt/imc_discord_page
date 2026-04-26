@@ -1275,3 +1275,12 @@ NO_INSIGHTS（其余多为闲聊和工具讨论，无实质策略内容）
 NO_INSIGHTS（algo-trading频道大多为闲聊和PnL炫耀，无实质策略信息，仅提到Round 3涉及delta hedging和vouchers）
 
 ---
+
+## 2026-04-26 01:45
+
+- 满分预期：每轮峰值约 R1=200k、R2=220k、R3=250k；提交前网站测试通常只能拿到约10%
+- TTE假设：网站测试时假设 Time-To-Expiry = 5
+
+NO_INSIGHTS之外的有效信息已提取完毕。
+
+---
