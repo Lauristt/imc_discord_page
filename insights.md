@@ -1284,3 +1284,12 @@ NO_INSIGHTS（algo-trading频道大多为闲聊和PnL炫耀，无实质策略信
 NO_INSIGHTS之外的有效信息已提取完毕。
 
 ---
+
+## 2026-04-26 02:00
+
+- #algo-trading: 有选手提到对美式期权可使用 Bjerksund-Stensland 近似进行定价
+- #algo-trading: velvetfruit extracts 期权 spread 较大,边际利润被吃掉,难以套利
+- #algo-trading: IMC 网站上的 PnL 普遍在 3k 左右,20k 可能是过拟合结果
+- #manual-trading: 担心 manual 题中大量选手直接选 900 会显著影响最终结果分布
+
+---
