@@ -1761,3 +1761,14 @@ NO_INSIGHTS对其他频道。
 - #manual-trading: 注意B2底部总投资计算使用的是volume而非volume*3000的数量
 
 ---
+
+## 2026-04-26 09:05
+
+- #algo-trading: TTE计算讨论：T = max(0.03, 4.0 - timestamp/1_000_000) / 252，关于用252还是365交易日存在疑问
+- #algo-trading: 提到trader.csv中包含trader id信息可以利用
+- #algo-trading: 经验提示：用AI辅助编码时不要喂太多context，否则Claude会变蠢
+- #algo-trading: IMC官方模拟器波动性大、Rust backtester在R3表现差，建议自建backtester
+- #manual-trading: 本轮manual为竞价博弈类题目，纳什均衡约920附近（含escalation）；保守选择如756/856可得约78k；激进选751/836在群体均值偏低时可拿20-30k最高利润
+- #manual-trading: 856-861区间属于运气/主观选择，超过群体均值才有高收益
+
+---
