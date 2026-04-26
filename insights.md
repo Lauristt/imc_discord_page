@@ -1995,3 +1995,10 @@ NO_INSIGHTS其他频道
 - #algo-trading: 仅使用day 0/1/2数据进行策略开发，day 3达到300k目标被认为非常困难
 
 ---
+
+## 2026-04-26 12:42
+
+- #algo-trading: 有选手用第三方backtester跑全3天数据得到约870K PnL，提到的backtester仓库：nabayansaha/imc-prosperity-4-backtester 和 Xeeshan85/imc-prosperity-4-backtester
+- #manual-trading: 期权到期时间设定为21 Solvenarian Days（从Round 1的Intara开始），被建模为15个交易日；manual trading界面中的"price"列疑似有bug，可忽略
+
+---
