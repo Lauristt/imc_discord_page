@@ -1365,3 +1365,14 @@ NO_INSIGHTS之外的有效信息已提取完毕。
 - #manual-trading: 手动交易讨论中，分析了出价相对于平均bid距离对每单位PnL的影响——越接近安全区PnL损失越小，且平均bid越高，远离安全区的代价越大；提示在bid选择时应权衡进入安全区的额外成本。
 
 ---
+
+## 2026-04-26 03:36
+
+- #general: volatility-smile定价、IV scalping和对冲是期权策略方向
+- #general: velvetfruit extract最大PnL参考值约54k
+- #algo-trading: 部分选手认为单一smile曲线效果不佳，讨论是否每个期权拟合各自的smile
+- #algo-trading: time to expiry的计算方式存在疑问，可能影响定价
+- #algo-trading: 有人反馈volatility smile策略实际不奏效
+- #manual-trading: 手动交易中关于bid=reserve price是否成交的规则疑问，以及如何在不知道平均bid的情况下决定最优bid
+
+---
