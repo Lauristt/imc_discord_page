@@ -1700,3 +1700,14 @@ NO_INSIGHTS对其他频道。
 - #manual-trading: Manual round最终最优出价的平均值为859，766/861组合可达第4名水平；最优解附近为860左右
 
 ---
+
+## 2026-04-26 08:10
+
+#algo-trading
+- 高分选手在期权类产品使用Black-Scholes定价 + Gamma Scalping策略获取主要alpha
+
+#manual-trading
+- Round相关manual题最优出价为(761, 861)，bid1与bid2不独立：当bid2提高时，bid1也需相应提高，因为更高bid2会捕获更多订单但底部合约PnL降低，需通过提高bid1补偿
+- 可通过对total_pnl函数求导推导最优解
+
+---
