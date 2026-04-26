@@ -1016,3 +1016,12 @@ NO_INSIGHTS的其他闲聊已忽略
 NO_INSIGHTS 之外仅以上要点。
 
 ---
+
+## 2026-04-25 23:10
+
+- #general: 可视化工具链接 prosperity.equirag.com
+- #algo-trading: voucher仓位限制为每个strike各300（非总和300）
+- #algo-trading: 有选手在VOLCANIC_ROCK_VOUCHER_6000赚252k、6500赚215k，提示高行权价option可能有较大利润空间
+- #algo-trading: 资产和算法将延续到接下来的两轮
+
+---
