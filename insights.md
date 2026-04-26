@@ -1101,3 +1101,11 @@ NO_INSIGHTS（其余多为闲聊和工具讨论，无实质策略内容）
 - Manual较优解参考：bid1≈751，bid2≈841
 
 ---
+
+## 2026-04-26 00:15
+
+- #algo-trading: 警惕look-ahead bias——如果IMC回测PnL曲线与DP曲线高度吻合，可能存在前视偏差问题
+- #algo-trading: 1M PnL在回测中不现实，建议用1k样本回测对比网页结果验证一致性
+- #manual-trading: manual交易题目中bid 1、bid 2与平均bid 2存在公式联动关系，可通过对其他人bid 2的假设来估算平均bid 2
+
+---
