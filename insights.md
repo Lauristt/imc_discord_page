@@ -1915,3 +1915,11 @@ NO_INSIGHTS对其他无实质内容部分
 - 时间框架争议：21天总时长中部分为交易日，参考一年252个交易日构建网格点数量；有人提出21*4=84网格点用于模拟
 
 ---
+
+## 2026-04-26 11:12
+
+- #algo-trading: VOLCANIC_ROCK_VOUCHER期权持仓限制300，其他产品200（参考wiki）
+- #algo-trading: 有选手认为Round 4与Round 3类似，counterparty信息难以带来改进
+- #manual-trading: Round 4 manual题涉及标的资产，起始价格可能为50，剩余12个交易日（每周5天，共60步的讨论）
+
+---
