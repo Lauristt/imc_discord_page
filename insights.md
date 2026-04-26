@@ -1433,3 +1433,13 @@ NO_INSIGHTS之外的有效信息已提取完毕。
 - #general: 比赛引擎对每次提交加入随机扰动，撮合时机的微小差异会影响成交，避免选手记住"完美交易"，提交结果存在波动
 
 ---
+
+## 2026-04-26 04:55
+
+#algo-trading
+- reliveer1分享：VEV的bot flow信号未根据voucher订单簿状态进行gating；当4100和5200 voucher的spread扩大超过32 ticks时，t统计量显著上升；informed bot仅在能在tight surface中对冲时才触发——可作为信号判断informed flow的依据
+
+#manual-trading
+- 有人提出本轮manual trading（连续函数优化）的最优解为795（另有人猜791），可作为参考但未确认正确性
+
+---
