@@ -746,3 +746,11 @@ NO_INSIGHTS 的反面，已提取上述见解。
 NO_INSIGHTS其余频道无实质策略信息
 
 ---
+
+## 2026-04-25 19:30
+
+- #algo-trading: 合法非过拟合策略在IMC官网OOS最高约50k；硬编码/DP方案因seed变化和regime shift在OOS上难以存活，IMC据称会封禁硬编码
+- #algo-trading: VOLCANIC_ROCK_VOUCHER相关策略提到IV scalp、smile inversion、residual scalp等思路
+- #algo-trading: 数据生成过程被认为是两个delta-1产品上的均值OU过程
+
+---
