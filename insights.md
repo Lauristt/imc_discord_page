@@ -998,3 +998,12 @@ NO_INSIGHTS（部分）但已有上述要点。
 - #algo-trading: voucher (期权) 用Black-Scholes拟合效果差，smile难以建模；有人建议直接买入持有到期作为简单策略
 
 ---
+
+## 2026-04-25 23:00
+
+- prosperity4btest这个python wheel包会把你的trader源代码发送到第三方API，存在代码泄露风险，建议自己写backtester
+- 自己写backtester并校准误差是最可靠的方式
+
+NO_INSIGHTS的其他闲聊已忽略
+
+---
