@@ -1836,3 +1836,13 @@ NO_INSIGHTS对其他频道。
 - #algo-trading: 多数选手回测有巨额利润但实盘表现差，警示过拟合风险；有人认为本轮实质上只有一个alpha来源
 
 ---
+
+## 2026-04-26 10:10
+
+- 风险管理教训：不要完全信任IMC网站或回测器，要关注实际drawdown；高drawdown的策略容易爆仓
+- Round 3策略尝试：Black-Scholes + 隐含波动率拟合 + 均值回归 + scalping（效果不一）；Delta hedging是有效方法
+- Round 3疑问：Black-Scholes中的无风险利率取值不明确
+- Manual trading疑问：AC（底层资产）数量单位是否为lot制存在歧义，价格约50与衍生品3000 lot size对冲不匹配，倾向于离散时间设定
+- 建议关注bot行为分析
+
+---
