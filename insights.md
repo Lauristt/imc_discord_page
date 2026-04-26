@@ -1635,3 +1635,16 @@ NO_INSIGHTS对其他频道。
 </response>
 
 ---
+
+## 2026-04-26 06:54
+
+#general
+- 有选手分享了Round 3 manual交易分布查看工具：https://prop-round-3.up.railway.app （PNL热图有bug，但分布数据可用）
+
+#manual-trading
+- 关于Round 3 manual（疑似两次出价博弈）讨论：当前均值受离群值影响，中位数可能是更好的估计器
+- 蒙特卡洛模拟显示最优解低于850，多数人选择略高于Nash均衡但不超850
+- 风险提示：出价正好低于均值会被严重惩罚
+- 由于多数人知道Nash最优解，集体行为会推高平均值，需要相应调整出价
+
+---
