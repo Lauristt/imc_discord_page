@@ -1692,3 +1692,11 @@ NO_INSIGHTS对其他频道。
 - #algo-trading: 回测器结果与实盘差异较大，多人回测负PnL但实盘正PnL，回测可信度低。
 
 ---
+
+## 2026-04-26 08:00
+
+- #algo-trading: 有选手反馈纯mean reversion策略效果不错，未使用Black-Scholes/期权定价
+- #algo-trading: 有团队认为portal数据波动太大不可靠，仅依赖backtest结果验证策略
+- #manual-trading: Manual round最终最优出价的平均值为859，766/861组合可达第4名水平；最优解附近为860左右
+
+---
