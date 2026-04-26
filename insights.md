@@ -1090,3 +1090,14 @@ NO_INSIGHTS（manual频道无实质信息）
 NO_INSIGHTS（其余多为闲聊和工具讨论，无实质策略内容）
 
 ---
+
+## 2026-04-26 00:14
+
+- rust回测器(GeyzsoN/prosperity_rust_backtester)与IMC官方回测一致性约0.5%，被多数人采用
+- 实盘PnL大致区间：最高130-150K/天(rust bt)，现实约100K，IMC portal上30-60K
+- 本轮PnL不再是线性的，不能简单将web PnL乘10来估算总PnL
+- 建议自建backtester，用submission logs和round数据校准，否则回测无意义
+- Manual trading第二出价的penalty是对bid2 PnL的乘数，并非影响整体PnL；915出价基本无效
+- Manual较优解参考：bid1≈751，bid2≈841
+
+---
