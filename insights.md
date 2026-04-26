@@ -1293,3 +1293,13 @@ NO_INSIGHTS之外的有效信息已提取完毕。
 - #manual-trading: 担心 manual 题中大量选手直接选 900 会显著影响最终结果分布
 
 ---
+
+## 2026-04-26 02:05
+
+- #manual-trading: 有人指出当平均值越接近920时，比平均值低1单位的惩罚比高1单位的惩罚更严重（说明manual题的支付函数对低于均值有偏向性惩罚）
+- #manual-trading: 有传言称Claude给出的建议是795和905（可作为对手行为参考）
+- #manual-trading: 上届约3%的队伍会刻意把答案偏向较低端
+- #algo-trading: 期权策略主流做法是用Black-Scholes和波动率微笑估算fair value，但单纯依赖此方法效果有限，需要更好的vol估计方法
+- #algo-trading: 讨论中提到DP oracle schedule（动态规划/预言机定价相关思路）
+
+---
