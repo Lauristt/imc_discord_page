@@ -2038,3 +2038,10 @@ NO_INSIGHTS之外的有效信息已提取完毕。
 - #manual-trading: manual options题目的合约规模实为3000（用于PnL缩放），所有数值（包括标的）都需按3000缩放，否则无法对冲。
 
 ---
+
+## 2026-04-26 13:20
+
+- #algo-trading: 有选手讨论 hydrogel(磁性树脂?)的 fair value 选择，是用动态FV还是固定10k锚定值仍有争议
+- #manual-trading: manual交易合约规模确认为3000（作为PnL的线性scalar），需Wesley/Hrvoje确认后加入wiki
+
+---
