@@ -1729,3 +1729,13 @@ NO_INSIGHTS对其他频道。
 - #manual-trading: Round 4 manual题中众多选手在836附近出价，有选手参考去年数据假设不会偏离太远导致失误；存在一个外部网站(project-yqymi.vercel.app)显示出价分布，部分人故意overbid干扰
 
 ---
+
+## 2026-04-26 08:30
+
+- #algo-trading: 有选手提示重点应放在最大化网站PnL，并使用神经网络作为alpha来源
+- #algo-trading: 观察到Hydrogel(Hydro)的spread为15仅出现在mid<10000时，spread为17仅出现在mid>10000时；某option上也有类似现象，可能是代码留下的人为痕迹，或可加以利用
+- #algo-trading: 有人询问基础gamma scalping是否足以应对本轮（涉及options）
+- #manual-trading: AC_50_P是Aether Crystal看跌期权，Strike=50 XIRECs，到期时间21个Solvenarian日（从Round 1在Intara开始计算）
+- #manual-trading: 关于R4 manual（疑似类似goldfish博弈）：上一轮多数人b2出价约870；进化均衡收敛到b2=13；若清空了b1则b2 bid可能与PnL无关（讨论中存疑）
+
+---
