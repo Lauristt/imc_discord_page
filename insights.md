@@ -1384,3 +1384,11 @@ NO_INSIGHTS之外的有效信息已提取完毕。
 - #manual-trading: 关于安全区惩罚机制，800与796等价、795与791等价（即每5个单位为一档），需衡量超出安全区x单位的相对成本
 
 ---
+
+## 2026-04-26 03:50
+
+- algo-trading: 榜单上154k+的高PnL提交被指为硬编码（针对每个timestamp的oracle schedule优化），在final holdout阶段不会成立；不硬编码的真实水平约30k，略带过拟合可达120k左右
+- algo-trading: 深度OTM voucher（如6k strike）有人作为应对底层价格大幅spike的尾部payoff来配置
+- manual-trading: 出价末位选择（如xx5 vs xx1）在B1中无影响，但在其他题目中报价位数会影响中标量与利润，存在量与利的权衡，可考虑双边布局两头吃利润
+
+---
