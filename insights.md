@@ -2091,3 +2091,12 @@ NO_INSIGHTS（其余消息无实质策略信息）
 （#algo-trading 内容主要为闲聊和回测结果讨论，无实质策略信息）
 
 ---
+
+## 2026-04-26 15:04
+
+- Manual trading讨论：PnL计算方式为 买/卖价 - fair value，其中fair value是100次模拟的平均值
+- Knockout产品的PnL可能需考虑未被敲出的比例：(买/卖价 - fair value) * 未敲出概率
+- KO产品本质是赌100次模拟中最小值的均值是否超过35
+- Chooser option的计算需注意是 mean(a-b) 而非 mean(a)-mean(b)（涉及非线性）
+
+---
