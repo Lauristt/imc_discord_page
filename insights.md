@@ -1025,3 +1025,11 @@ NO_INSIGHTS 之外仅以上要点。
 - #algo-trading: 资产和算法将延续到接下来的两轮
 
 ---
+
+## 2026-04-25 23:13
+
+- hydrogel(资源)上有人通过承担一定风险将PnL刷到20k-35k；从2k提升到5k比从20k到25k更难
+- iacobus提到一个微观结构信号：当L1 mid - L2 mid >= 1时，L1会均值回归约4个tick
+- portal数据是backtest的子集，所以选手更关注backtest PnL
+
+---
