@@ -1041,3 +1041,10 @@ NO_INSIGHTS 之外仅以上要点。
 - 移动止损(trailing stop loss)在比赛中表现不错
 
 ---
+
+## 2026-04-25 23:35
+
+- #manual-trading: 手动交易题被视为权衡问题——数学最优解（最高PnL）会带来惩罚，需在PnL与避免惩罚之间权衡找到Nash均衡点
+- #manual-trading: 可参考Round 2算法竞价分布作为参照，若trolls多则竞价会异常偏高；实际Round 2结果接近Nash均衡，说明多数参赛者理性
+
+---
