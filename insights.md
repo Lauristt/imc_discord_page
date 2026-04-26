@@ -862,3 +862,10 @@ NO_INSIGHTS之外的信息有限，主要是PnL闲聊。
 - #manual-trading: 关于Nash均衡讨论，有人认为最优值约794，另有人认为22k队伍下Nash均衡为836，可能加价+5到+10
 
 ---
+
+## 2026-04-25 21:40
+
+- #manual-trading: 关于manual trading的Nash均衡讨论，b1的Nash值约为836，对应b2为751；部分选手考虑出价高于Nash（如900或919）以略微偏离最优来获取更多收益
+- #manual-trading: 约30%的队伍实际完成了round 1和2，参赛队伍数从22k降至约4100
+
+---
