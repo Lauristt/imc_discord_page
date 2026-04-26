@@ -1303,3 +1303,15 @@ NO_INSIGHTS之外的有效信息已提取完毕。
 - #algo-trading: 讨论中提到DP oracle schedule（动态规划/预言机定价相关思路）
 
 ---
+
+## 2026-04-26 02:30
+
+#manual-trading
+- 关于本轮manual交易（双价竞标），选手讨论的非博弈最优解大约是低价751、高价836；也有人认为是760和850，最终结果取决于其他人的出价分布
+
+#algo-trading
+- 有选手提到使用全部数据来拟合波动率smile的做法（针对期权类product）
+- 本轮无overfit的合理PnL参考值约为30k；榜首水平接近900k多为hardcode/oracle调度（过拟合）
+- 有人提到Prosperity 2和3中类似的"hardcode/oracle schedule"策略仍然奏效
+
+---
