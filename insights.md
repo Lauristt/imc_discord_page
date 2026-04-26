@@ -1772,3 +1772,13 @@ NO_INSIGHTS对其他频道。
 - #manual-trading: 856-861区间属于运气/主观选择，超过群体均值才有高收益
 
 ---
+
+## 2026-04-26 09:15
+
+- #algo-trading: Round 4最终结算疑似在day 4运行（R3的backtest是day 2，最终是day 3；R4 backtest是day 3，最终在day 4），TTE随交易日推进而递减，影响期权定价
+- #algo-trading: 大量选手在backtest上取得150k-300k PnL但最终结算暴跌甚至变为负数，典型的过拟合现象，提示策略应基于稳健的fair value（如硬编码均值）而非过度调参
+- #algo-trading: 加止损（stop loss）在R4的options/volatility drift情况下救了不少人，建议在策略中加入风险控制
+- #algo-trading: R4不过拟合的合理目标PnL约300k+
+- #algo-trading: 可以用提供的测试数据自行验证backtest是否可靠
+
+---
