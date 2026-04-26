@@ -1489,3 +1489,12 @@ NO_INSIGHTS（#general 无实质信息）
 （其余多为玩梗和闲聊，无实质信息）
 
 ---
+
+## 2026-04-26 05:18
+
+- #manual-trading: 本轮manual题目为两轮出价博弈（b1/b2），纯Nash均衡解约为b1=751、b2=836；791为单变量profit EV最大化解；多人讨论b2均值预计约755-830区间，部分人选择略高于Nash以应对风险（如836+）
+- #manual-trading: 去年数据显示平均出价仅比Nash高1点，可作参考
+- #manual-trading: 双玩家场景下存在75+个纯Nash均衡；用mean而非median作评判会受极端alts账户影响
+- #algo-trading: 教训——临deadline用Claude生成的算法直接提交风险极高（出现-28k等结果）；硬编码过拟合的方案在真实数据上往往亏损
+
+---
