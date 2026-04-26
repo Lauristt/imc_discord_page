@@ -754,3 +754,13 @@ NO_INSIGHTS其余频道无实质策略信息
 - #algo-trading: 数据生成过程被认为是两个delta-1产品上的均值OU过程
 
 ---
+
+## 2026-04-25 19:35
+
+- algo-trading: IMC官网回测PnL超过30k可能存在过拟合嫌疑，超过50k几乎肯定是hardcoding/过拟合；3天回测合理目标约300k+
+- algo-trading: 回测中drawdown极小也是过拟合的可疑信号
+- algo-trading: 建议用1k tick数据验证均值回归策略，避免过拟合
+- algo-trading: 可在IMC网站上部署简单MM策略来观察bot行为，估算成交上限
+- manual-trading: 在manual交易出价中，许多人采用"+1"策略（如851等），导致整体underbid趋势
+
+---
