@@ -2053,3 +2053,12 @@ NO_INSIGHTS之外的有效信息已提取完毕。
 NO_INSIGHTS（其余消息无实质策略信息）
 
 ---
+
+## 2026-04-26 14:03
+
+- R3/R4存在空bid/ask侧的漏洞（无bot报价时可利用），R5被patch后噪音增加，不再能赚60M但仍是有效alpha
+- 在空bid/ask的报价场景中，需在MM之后报价，hitting在之后发生
+- Protein snackpacks属于R5产品，被误放入早期数据中
+- Manual trading中关于Intara天数计算：7天=1周=5交易日，需考虑前2天是否为交易日
+
+---
