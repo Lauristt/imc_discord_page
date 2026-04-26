@@ -1890,3 +1890,13 @@ NO_INSIGHTS对其他频道。
 - 算法交易频道：尽管官方advisor提示使用隐含波动率和BS，但有选手建议不要完全依赖BS模型
 
 ---
+
+## 2026-04-26 11:00
+
+- manual-trading: 官方确认manual round机制——参赛者只在挑战开始时做一次决策，之后系统模拟所有交易日并按fair value结算
+- manual-trading: 期权到期时间按日历日计算，但模拟基于252交易日/年假设，3周模拟期对应少于15个交易日
+- algo-trading: Round 4使用相同数据，可以查看trader ID
+
+NO_INSIGHTS对其他无实质内容部分
+
+---
