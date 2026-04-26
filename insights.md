@@ -945,3 +945,11 @@ NO_INSIGHTS（其余消息多为闲聊或无实质信息）
 - #manual-trading: manual题机制讨论：交易未成交不得分，成交则从XIRECS扣除支付金额
 
 ---
+
+## 2026-04-25 22:37
+
+- #general: VOLCANIC_ROCK_VOUCHER (vev) 可用VWAP并交易其偏离值，单此策略可获约6k收益
+- #algo-trading: hydrogel(可能指某product)中存在趋势但较难识别
+- #manual-trading: 本轮manual交易买入价800卖出价上限920即可盈利，无法亏损但有惩罚（scalar形式）
+
+---
