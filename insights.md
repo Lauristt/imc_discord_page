@@ -1676,3 +1676,10 @@ NO_INSIGHTS对其他频道。
 - 多数玩家弃Tomatoes，专注Osium和Pepper
 
 ---
+
+## 2026-04-26 07:50
+
+- #manual-trading: 第二轮manual最优出价约为761/861（讨论中提到的最高分接近此组合），平均成交价约859
+- #algo-trading: 网站显示的backtest使用的是Day 2前10000个时间戳，而Round 3实际在全新Day 3数据上运行，导致网站预览pnl与实际live pnl差异巨大（如backtest 510k vs live 50k）
+
+---
