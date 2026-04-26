@@ -1265,3 +1265,13 @@ NO_INSIGHTS（其余多为闲聊和工具讨论，无实质策略内容）
 - #manual-trading: 提示题目中所谓"bids"实际是卖家的reserve prices（卖给你），需要正确理解题意
 
 ---
+
+## 2026-04-26 01:40
+
+- #manual-trading: 拍卖机制确认——出价能命中所有低于等于该价的reserve price；首次出价Nash均衡约836-840
+- #manual-trading: Nash均衡推导思路：bid1取区间两端中点，bid2取bid1与上端中点
+- #manual-trading: 部分玩家会抬高出价（如870）试图拉高平均价（第二轮规则相关）
+
+NO_INSIGHTS（algo-trading频道大多为闲聊和PnL炫耀，无实质策略信息，仅提到Round 3涉及delta hedging和vouchers）
+
+---
