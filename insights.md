@@ -2183,3 +2183,12 @@ NO_INSIGHTS
 - 期权模拟机制：从day 0开始，2周期权用10个交易日（40 ticks到期），3周期权用15个交易日（60 ticks到期），运行100条几何布朗运动路径
 
 ---
+
+## 2026-04-26 17:50
+
+- #algo-trading: 将年化波动率转换为日波动率需除以sqrt(252)
+- #algo-trading: 有人在尝试分别看bid和ask的隐含波动率（IV）来寻找IV moneyness的alpha
+- #manual-trading: 推测manual交易的fair value由系统模拟100次计算得出，根据持仓方向决定是bid-fair还是fair-ask
+- #manual-trading: manual界面最右侧的"price"列是bug，可忽略，原本应显示每个产品的投入金额
+
+---
