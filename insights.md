@@ -877,3 +877,12 @@ NO_INSIGHTS之外的信息有限，主要是PnL闲聊。
 - #manual-trading: 本轮manual的Nash均衡点约在836，但若足够多人选择900+，低于该值的会吃亏；关键在于多少人会"故意拉高"以及拉到900需要多少人才能显著抬升平均值。
 
 ---
+
+## 2026-04-25 22:05
+
+- #algo-trading: 有人提到hydrogel不做mean reversion，而是等待信号触发再交易；3天回测约90万PnL但方差较大
+- #manual-trading: 关于manual题（疑似第二价格竞猜）讨论Nash均衡，836及以上均为Nash均衡点，但有人认为836作为Nash过于乐观，收敛后的Nash不在836
+
+NO_INSIGHTS（其余消息多为闲聊或无实质信息）
+
+---
