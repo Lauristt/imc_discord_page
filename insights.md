@@ -2012,3 +2012,11 @@ NO_INSIGHTS其他频道
 NO_INSIGHTS之外的有效信息已提取完毕。
 
 ---
+
+## 2026-04-26 12:53
+
+- manual-trading: 期权PnL计算的到期天数存在争议，Wiki写15个交易日，但moderator澄清按每年252交易日的标准估算（3周模拟），15天为高估，这一差异对策略盈亏影响巨大
+- manual-trading: 关于报价机制——若fair value为中间价50，买入仍需支付ask价
+- algo-trading: 有选手认为做市(MM)在当前轮次行不通，但spread过宽也难以market taking
+
+---
