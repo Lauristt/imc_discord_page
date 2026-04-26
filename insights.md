@@ -1169,3 +1169,22 @@ NO_INSIGHTS（其余多为闲聊和工具讨论，无实质策略内容）
 - velvet extract在day2表现为正收益，hydrogel表现较差
 
 ---
+
+## 2026-04-26 00:44
+
+#algo-trading
+- Round 3期权策略中，T的设置存在分歧（5 vs 5/252），需注意时间单位
+- Hydrogel单日PnL超过30k基本属于过拟合；超过86k一日尤其可疑
+- 期权做市效果不佳，有人改用take策略表现更好
+- Hydrogel可能适合均值回归策略
+- Velvet underlying可获得约6k的PnL
+
+#manual-trading
+- Manual题目网站显示的结果基于第2天前1/10数据，最终结算用完整第2天数据
+- 估计avg bids时不应只假设热门b值，应该暴力枚举所有可能性以避免依赖他人行为假设
+- 可通过模拟方式（brute force）来推算更稳健的最优出价
+
+#general
+- Round 3于EST时间早上6点结束
+
+---
