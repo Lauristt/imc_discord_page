@@ -2082,3 +2082,12 @@ NO_INSIGHTS（其余消息无实质策略信息）
 - Manual trading机制澄清：产品fair value按100次模拟的平均值标记；solvinarian days指日历日，trading days指交易日；本轮为独立挑战，不继承其他轮次的仓位
 
 ---
+
+## 2026-04-26 14:45
+
+#manual-trading
+- 在手动交易的效用函数参数选择上：高风险厌恶（lambda 2.0、1.0）表现较差，最优区间在中等水平 lambda 0.3-0.5，其中 lambda 0.5 作为默认较稳健，lambda 0.3 也可接受
+
+（#algo-trading 内容主要为闲聊和回测结果讨论，无实质策略信息）
+
+---
