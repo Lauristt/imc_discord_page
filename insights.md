@@ -973,3 +973,11 @@ NO_INSIGHTS（部分）但已有上述要点。
 - #algo-trading: 提交时需注意随机种子敏感性，避免过拟合
 
 ---
+
+## 2026-04-25 22:48
+
+- #general: VEV策略思路——用VWAP偏离（z-score）作为信号，期权部分在ITM时加杠杆放大信号，OTM在高IV时做空（该选手称获得18k）
+- #algo-trading: Hydro packs（疑似某product）本地回测合理PnL约为30-40k/天
+- #manual-trading: Round 2顶尖队伍在speed上的配置约在40%左右（待确认）；speed有较重的惩罚
+
+---
