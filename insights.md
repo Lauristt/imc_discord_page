@@ -1152,3 +1152,20 @@ NO_INSIGHTS（其余多为闲聊和工具讨论，无实质策略内容）
 - 出价机制理解：第一bid以下全部成交，第二bid若高于全局均值则两bid之间区间成交，否则触发penalty
 
 ---
+
+## 2026-04-26 00:39
+
+基于消息内容，提取以下有价值的见解：
+
+=== #algo-trading ===
+- 有选手在期权(vouchers)上获得显著收益：velvet 11.5k、Hydrogel 86.6k、Vouchers 44.5k，说明options是本轮主要利润来源
+- 不同执行价(strike)的voucher需要采用不同策略，不能用统一方法
+- 网站排名榜数据可能存在过拟合风险，约10k左右PnL的策略在day2很多变成负收益
+
+=== #manual-trading ===
+- 推荐使用本地backtester（如Rust backtester）而非依赖官方网站回测，网站结果不可靠
+- Hydrogel在网站和Rust backtester之间数值差异很大，可能因为该产品随机性较强
+- 在manual trading中，由于竞争对手众多，纯粹追求安全（60%置信度）不够，需要承担一定风险才能领先
+- velvet extract在day2表现为正收益，hydrogel表现较差
+
+---
