@@ -1506,3 +1506,13 @@ NO_INSIGHTS（#general 无实质信息）
 - #algo-trading: Round 3硬编码价格策略在真实数据上很可能反向亏损，回测>40k的硬编码方案在实盘会变负；30k左右才是较真实的可达水平
 
 ---
+
+## 2026-04-26 05:30
+
+- #manual-trading: Manual trading题目中，counterparty只在bid严格高于reserve时才卖出，因此bid恰好落在reserve价格上是被支配的——应该选择reserve+1（如796优于795，能多捕获一个pod，净收益+99，约+3.2%）。Reserves按5的步长分布（670, 675, ..., 800）。
+- #manual-trading: Bid 2存在弱Nash均衡问题，836这类策略可被惩罚（4 EV成本换20 EV惩罚），但超过876后惩罚成本过高（cubic penalty）变得不划算。
+- #manual-trading: 玩家选择示例：771/881、866 (b2)、835 (b2)，可作为bid分布的参考。
+- #algo-trading: 官方backtester给出的timestamps数量是实盘数据的10倍以上，因此PnL不能简单按比例换算。
+- #algo-trading: 普遍反馈Phase 2（含期权）比Phase 1难很多，但期权理论实际作用有限，hydrogel等其他product反而更值得投入时间。
+
+---
