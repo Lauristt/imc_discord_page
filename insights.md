@@ -764,3 +764,11 @@ NO_INSIGHTS其余频道无实质策略信息
 - manual-trading: 在manual交易出价中，许多人采用"+1"策略（如851等），导致整体underbid趋势
 
 ---
+
+## 2026-04-25 19:55
+
+- #manual-trading: 有人提到本轮manual最优出价为920双边，惩罚是乘法因子（非扣减）
+- #algo-trading: 讨论中提示：回测无drawdown通常是过拟合信号；若策略backtest高利润但实盘负PnL，反向操作可能有效；可考虑将前一天末尾的信息编码传递到下一天
+- #algo-trading: 有人尝试用IV和Black-Scholes（期权定价）但得到负PnL，提示该方法需谨慎使用
+
+---
