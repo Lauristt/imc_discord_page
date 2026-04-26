@@ -1571,3 +1571,12 @@ NO_INSIGHTS对其他频道。
 - 题目存在B2过高触发惩罚的机制，且约束low bid < high bid
 
 ---
+
+## 2026-04-26 06:19
+
+- #manual-trading: 手动交易题需要同时优化 bid1 和 bid2（在同一函数中），而不是先定 bid1 再定 bid2；许多人误以为是顺序决策
+- #manual-trading: 玩家出价分布观察：剔除低端离群值后均值约 865；常见出价范围 761-881，多数人在 836-860 之间
+- #manual-trading: 储备价（reserve price）以 5 为间隔，因此出价取 5 的倍数即可，非 5 倍数无额外收益（如 790 与 791 等价）
+- #manual-trading: 策略思路：bid 略高于均值可推高平均参与分；但需权衡惩罚与收益（penalty vs profit）
+
+---
