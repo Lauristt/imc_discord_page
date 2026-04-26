@@ -1580,3 +1580,18 @@ NO_INSIGHTS对其他频道。
 - #manual-trading: 策略思路：bid 略高于均值可推高平均参与分；但需权衡惩罚与收益（penalty vs profit）
 
 ---
+
+## 2026-04-26 06:24
+
+#algo-trading
+- Pepper和Osmium也作为隐藏alpha在被测试（wiki中有说明），很多人因此获得100k+收益
+- 忽略pepper/osmium会导致大幅损失（提到-20k IV的代价）
+
+#manual-trading
+- Manual出价博弈：在无博弈假设下最优解为835和750
+- 很多人误以为790/795是bid1的最优值，导致实际平均值偏高
+- 策略关键：bid2需要高于平均值才有收益，否则会被立方折扣惩罚
+- 奖励公式：若x>avg则reward=920-x；若x<avg则reward=(920-x)*cubic_disc(x,avg)
+- bid1可视为独立于平均值；bid1 < bid2（命名为lower/higher bid）
+
+---
