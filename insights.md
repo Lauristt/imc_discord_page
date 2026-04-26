@@ -1862,3 +1862,11 @@ NO_INSIGHTS对其他频道。
 - T-21从intara第1天开始，期权剩余天数与100次模拟的时间安排不明确
 
 ---
+
+## 2026-04-26 10:30
+
+- #algo-trading: 有选手观察到5200和5300期权的已实现波动率始终高于隐含波动率，可考虑gamma scalping策略；5400期权的IV持续低于其他行权价，存在相对定价偏差
+- #manual-trading: 关于barrier option的讨论——"ever trades below the barrier before expiry"应理解为离散时间步监控而非连续监控；T+21可能因节假日实际少于15个交易日
+- #manual-trading: 推测当前期权剩余时间——已经过6天Intara+2天Solvenar+约2天非交易日≈10天，订单簿价格对应T-11
+
+---
