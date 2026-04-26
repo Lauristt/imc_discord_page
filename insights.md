@@ -1870,3 +1870,10 @@ NO_INSIGHTS对其他频道。
 - #manual-trading: 推测当前期权剩余时间——已经过6天Intara+2天Solvenar+约2天非交易日≈10天，订单簿价格对应T-11
 
 ---
+
+## 2026-04-26 10:35
+
+- manual-trading: "21 Solvenarian Days"被解读为15个交易日（非日历日），据称有Mod确认；存在round 2开始时是否已过去一天的疑问
+- manual-trading: 关于manual交易中price列与bid/ask的成交价格存在困惑
+
+---
