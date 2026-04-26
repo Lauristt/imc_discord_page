@@ -990,3 +990,11 @@ NO_INSIGHTS（部分）但已有上述要点。
 - 各模块得分参考：hydro 2k、volcanic（vev）6k、options 10k；其中hydro偏低，options可达较高水平（来自#algo-trading）
 
 ---
+
+## 2026-04-25 22:58
+
+- #manual-trading: 本轮manual的设计意图是用cubic惩罚右偏bid2分布，吓退不愿做数学的玩家；惩罚不是世界末日，承担惩罚去抢更高价位可能更优
+- #manual-trading: bid2的PnL依赖于从bid1吸收的对手分布，两个bid之间存在非平凡关联，不能独立优化
+- #algo-trading: voucher (期权) 用Black-Scholes拟合效果差，smile难以建模；有人建议直接买入持有到期作为简单策略
+
+---
