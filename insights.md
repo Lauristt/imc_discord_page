@@ -1007,3 +1007,12 @@ NO_INSIGHTS（部分）但已有上述要点。
 NO_INSIGHTS的其他闲聊已忽略
 
 ---
+
+## 2026-04-25 23:05
+
+- algo-trading: 有选手提到做空 Volcanic Rock Voucher (velve) 作为策略，称获得15k收益
+- algo-trading: 提及"4个trader"中有可利用的，暗示通过分析bot/trader行为可以套利
+
+NO_INSIGHTS 之外仅以上要点。
+
+---
