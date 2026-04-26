@@ -1961,3 +1961,12 @@ NO_INSIGHTS对其他无实质内容部分
 - Hydrogel交易思路讨论：可同时做market making和mean reversion
 
 ---
+
+## 2026-04-26 12:22
+
+- manual-trading: 本轮manual题目中b1和b2出价相互关联，b2会清理b1未成交的部分；b1的最优值取决于b2的出价水平
+- manual-trading: 若b2设在纳什均衡，b1纳什值约为751；若b2过高，b1需调整到约796
+- manual-trading: 策略上希望b1和b2买入数量大致相等
+- manual-trading: 796只在打算放弃b2（即b2会失败）时才是最优选择
+
+---
