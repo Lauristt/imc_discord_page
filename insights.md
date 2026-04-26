@@ -1376,3 +1376,11 @@ NO_INSIGHTS之外的有效信息已提取完毕。
 - #manual-trading: 手动交易中关于bid=reserve price是否成交的规则疑问，以及如何在不知道平均bid的情况下决定最优bid
 
 ---
+
+## 2026-04-26 03:40
+
+- #algo-trading: 期权回合基于IV和Black-Scholes难以找到alpha，最终提交才执行期权
+- #algo-trading: 有选手采用"最优做市+趋势交易"组合策略，回测可达930k（day0/2约250k，day1约400k）
+- #manual-trading: 关于安全区惩罚机制，800与796等价、795与791等价（即每5个单位为一档），需衡量超出安全区x单位的相对成本
+
+---
