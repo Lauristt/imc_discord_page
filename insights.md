@@ -1409,3 +1409,13 @@ NO_INSIGHTS之外的有效信息已提取完毕。
 - 部分团队选择无风险speed=0策略，会使分布有偏
 
 ---
+
+## 2026-04-26 04:31
+
+- #algo-trading: 期权position limit疑问——300是单个期权还是总持仓的限制（未解答）
+- #algo-trading: 有人提到IV在日内存在drift，可作为信号实现
+- #manual-trading: 第二轮manual trading（疑似海龟竞拍/双出价题）选手出价集中在838-866区间，有人计划出价851左右
+
+NO_INSIGHTS之外的有效信息已提取完毕。
+
+---
