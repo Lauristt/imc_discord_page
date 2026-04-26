@@ -1877,3 +1877,9 @@ NO_INSIGHTS对其他频道。
 - manual-trading: 关于manual交易中price列与bid/ask的成交价格存在困惑
 
 ---
+
+## 2026-04-26 10:45
+
+- #manual-trading: 本轮manual交易b2平均值最终为859，有人预测在853-858区间并加了小buffer，bid 1被认为是最优策略
+
+---
