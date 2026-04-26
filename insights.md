@@ -1033,3 +1033,11 @@ NO_INSIGHTS 之外仅以上要点。
 - portal数据是backtest的子集，所以选手更关注backtest PnL
 
 ---
+
+## 2026-04-25 23:23
+
+- 波动率微笑(vol smile)拟合策略讨论：部分人对每个timestamp拟合抛物线，也有人认为时间太短、流动性太小，变化很小，可以每几千个timestamp更新一次而非每个timestamp都拟合
+- 有时vol smile呈现"frown"形态（倒置）
+- 移动止损(trailing stop loss)在比赛中表现不错
+
+---
