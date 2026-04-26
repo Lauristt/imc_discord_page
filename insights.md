@@ -1939,3 +1939,11 @@ NO_INSIGHTS对其他无实质内容部分
 - NO_INSIGHTS（仅排名闲聊）
 
 ---
+
+## 2026-04-26 12:10
+
+- 推荐的回测器：kevin-fu1 和 nabayansaha 的 IMC Prosperity 4 backtester（GitHub），nabayansaha 已更新支持 counterparty 信息
+- Rust版本回测器被认为最准确，结果偏差通常源于过拟合
+- IMC官方backtest也是可靠选择
+
+---
