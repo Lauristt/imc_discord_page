@@ -1553,3 +1553,21 @@ NO_INSIGHTS（#general 无实质信息）
 - algo-trading: 有选手指出R3产品（如pepper）信号比R2更难识别；OSM中存在informed trader/toxic flow，但该信号未延续到R3
 
 ---
+
+## 2026-04-26 06:13
+
+#manual-trading
+- 关于manual round的双bid博弈题，社区讨论的最优解集中在762/857附近（基于投票分布），751/861、753.1等也是热门估算
+- B1的最优值依赖于对手方分布而非独立数学题，与去年题目机制不同
+- 约束条件：低bid必须小于高bid；B2过高会触发惩罚机制
+
+NO_INSIGHTS对其他频道。
+
+（实际输出）：
+
+#manual-trading
+- 本轮manual双bid题社区估算最优解约为762/857（基于投票分布反推），其他热门答案包括751/861、753.1等
+- B1并非独立数学题，而是依赖对手方bid分布，与去年机制不同
+- 题目存在B2过高触发惩罚的机制，且约束low bid < high bid
+
+---
