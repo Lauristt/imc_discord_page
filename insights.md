@@ -2169,3 +2169,11 @@ NO_INSIGHTS
 - 有人提到hydro（可能指某product）存在明显套利/免费收益机会（algo-trading）
 
 ---
+
+## 2026-04-26 17:00
+
+- #algo-trading: 有人认为本轮的marks（参考价/标记价）信息量极低，不可靠
+- #algo-trading: R3中高回撤的策略容易翻车，建议选择低回撤、稳健PnL的方案
+- #manual-trading: Manual题最大EV约为166k左右，1.6M被认为不现实；要想拿高分需涉足高风险选项
+
+---
