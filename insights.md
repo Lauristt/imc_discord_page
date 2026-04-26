@@ -1720,3 +1720,12 @@ NO_INSIGHTS对其他频道。
 - 频道 #algo-trading: Vouchers/期权策略普遍亏损，大量团队放弃期权部分；底层资产方向交易表现尚可但期权拖累整体PnL
 
 ---
+
+## 2026-04-26 08:20
+
+- #general: 官方澄清hardcoding规则——基于逆向工程bot行为或定义自身交易参数的硬编码可接受；但硬编码价格数据、引用外部数据、利用平台bug或使用非公开信息会被取消资格；对每个timestamp硬编码导致异常PnL会被怀疑，前排提交会被人工审核
+- #algo-trading: Round 4 vouchers的关键变化是TTE（到期时间），有人在仅靠vouchers就赚到250k
+- #algo-trading: 选手讨论使用Black-Scholes、IV、做市(MM)、delta hedging等期权策略；不做BS/IV/MM也能取得高分（暗示存在更简单的策略路径）
+- #manual-trading: Round 4 manual题中众多选手在836附近出价，有选手参考去年数据假设不会偏离太远导致失误；存在一个外部网站(project-yqymi.vercel.app)显示出价分布，部分人故意overbid干扰
+
+---
