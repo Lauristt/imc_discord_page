@@ -2627,3 +2627,12 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - 有选手询问OBI(order book imbalance)是否适用于VOLCANIC_ROCK_VOUCHER (velvet)，暗示OBI可能不是该品种的主要alpha来源
 
 ---
+
+## 2026-04-27 15:15
+
+- #manual-trading: 据称IMC官方确认（manual round相关）scaling是线性的
+- #algo-trading: 有选手在hydro上用EMA做market making；OBI（订单簿不平衡）被提及作为常见策略；有人尝试用历史数据拟合隐含波动率smile/分布
+
+NO_INSIGHTS之外其余多为闲聊和求助，无实质策略细节。
+
+---
