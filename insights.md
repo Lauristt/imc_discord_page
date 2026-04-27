@@ -2284,3 +2284,12 @@ human_acknowledgment: NO_INSIGHTS不适用，已提取见解。
 NO_INSIGHTS
 
 ---
+
+## 2026-04-27 05:35
+
+- Round 4 manual交易涉及Chooser option：行权价高于标的价时变成put，低于时变成call
+- 标的资产价格为100次GBM模拟的平均值，样本量适中，价格波动会被平滑，相对可预测
+- Manual交易盈亏按3000倍缩放（仓位上限相关）
+- Round 4 manual结果含运气成分，但100次模拟已显著降低随机性
+
+---
