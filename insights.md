@@ -2562,3 +2562,11 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - #algo-trading: 有选手指出本轮如果不利用bot（mark方）的交易行为，策略基本没竞争力，bot behavior是关键alpha来源
 
 ---
+
+## 2026-04-27 14:24
+
+- #algo-trading: 用midprice计算波动率曲线时得到的是frown（倒微笑）而非smile，需注意计算方式
+- #algo-trading: 波动率smile相关计算可直接在代码中实现
+- #manual-trading: 订单簿中显示数量为50
+
+---
