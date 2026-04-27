@@ -2412,3 +2412,9 @@ Wait, let me reconsider. The message about spread being too large and outliers h
 NO_INSIGHTS之外的内容已提取完毕。
 
 ---
+
+## 2026-04-27 09:06
+
+- Round 5测试数据说明：选手拥有Day 0,1,2,3的历史数据（来自R3和R4），最终在Day 4上被测试
+
+---
