@@ -2518,3 +2518,17 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - 提醒：Round 4的Day 1和Day 2数据与Round 3相同，重复回溯并无新增信息
 
 ---
+
+## 2026-04-27 13:03
+
+#general
+- Round 4 manual题(VEV)分产品收益参考：HYDROGEL_PACK +82k、VELVETFRUIT_EXTRACT +74k、VEV_5000 +104k、VEV_5100 +99k、VEV_5200 +76k为主要盈利来源；VEV_4000/4500/5500收益很低，总计约+467k
+- Round 4 manual按天收益：Day1 +232k、Day2 +84k、Day3 +150k
+
+#algo-trading
+- HYDROGEL单品采用均值回归策略可获约2.6k PnL，更高收益（如70k）疑似过拟合
+
+#manual-trading
+- 讨论manual题3000x乘数可能存在机制漏洞/过强影响
+
+---
