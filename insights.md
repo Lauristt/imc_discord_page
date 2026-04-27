@@ -2321,3 +2321,11 @@ NO_INSIGHTS
 - #manual-trading: 讨论manual trading中分布预测的策略，提到使用CVaR优化而非纯EV最大化以应对潜在的不利seed风险
 
 ---
+
+## 2026-04-27 07:40
+
+- #manual-trading: 有选手指出本轮manual交易满仓做多是负EV策略，满仓做空EV更低，暗示中性或小仓位更优。
+
+NO_INSIGHTS适用于algo频道（仅闲聊和排名讨论，无具体策略信息）。
+
+---
