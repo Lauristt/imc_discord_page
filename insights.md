@@ -2577,3 +2577,11 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - #manual-trading: Aether Crystal的描述文本（"存储和稳定能量波动"）可能是题目隐藏信号；AC_50_P为执行价50 XIREC、到期21天的看跌期权，从Round 1开始计时，目前在Round 4，需根据已过天数计算剩余到期时间。
 
 ---
+
+## 2026-04-27 14:45
+
+- algo-trading：Round 4策略需在Day 2这种极端行情下仍保持稳健，许多人因未对Day 2情景做压力测试（如3倍极端化）而爆亏-100k；可用蒙特卡洛模拟验证策略鲁棒性
+- algo-trading：Round 4网站非troll最高PnL约67.5k，使用与上轮相同策略
+- manual-trading：manual交易中price列只是装饰性显示"投资成本"，与PnL无关，不应影响决策
+
+---
