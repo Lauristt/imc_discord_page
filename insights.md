@@ -2267,3 +2267,11 @@ human_acknowledgment: NO_INSIGHTS不适用，已提取见解。
 - #algo-trading: 有人推测数据/bot行为中隐藏着多个alpha信号值得挖掘
 
 ---
+
+## 2026-04-27 02:58
+
+- Manual交易：price列可忽略（仅用于展示总投资额，部分显示不准），决策不应受其影响
+- Manual交易：每个合约获得10 XIRECS，再乘以合约规模
+- Manual交易：所有玩家的交易都在相同的100次模拟上评估（公平统一）
+
+---
