@@ -2736,3 +2736,13 @@ NO_INSIGHTS
 - Magnificent Macarons (mark67?) 的规律简单，可用简单规则准确预测，无需神经网络
 
 ---
+
+## 2026-04-27 17:10
+
+#algo-trading
+- 有选手认为可通过识别Mark67交易spike的规律来"前置交易"他，认为该模式存在于数据中但需要brute force寻找
+- 有观点认为Mark67不是内部人，其行为基于K线（candlestick）规则
+- 回测工具推荐：jmerle的backtester（已被fork并适配本年Round 4）和Rust版backtester，两者PnL一致
+- 注意：依赖bot成交行为的策略在回测中可能无法真实反映，因回测订单是"预设"而非真实撮合
+
+---
