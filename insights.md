@@ -2555,3 +2555,10 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - 期权/时间相关计算中，BASE_DAYS_LEFT=4.0，DAYS_PER_YEAR取值（365 vs 252）存在讨论
 
 ---
+
+## 2026-04-27 14:14
+
+- #manual-trading: 有选手提到用Black-Scholes对vanilla options定价后，部分期权明显存在错误定价，可作为套利机会
+- #algo-trading: 有选手指出本轮如果不利用bot（mark方）的交易行为，策略基本没竞争力，bot behavior是关键alpha来源
+
+---
