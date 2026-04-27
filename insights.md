@@ -2403,3 +2403,12 @@ Wait, let me reconsider. The message about spread being too large and outliers h
 - #manual-trading: Chooser option机制——2周后根据当时ATM情况自动转为call或put，之后还有1周到期
 
 ---
+
+## 2026-04-27 09:05
+
+- #general: 最终评测使用1天数据；网页PnL实际只是第3天前10万tick的数据，容易过拟合
+- #algo-trading: 期权策略能做到300k算很强；mean reversion做到900k多半是过拟合；最终算法只在1天数据上测试
+
+NO_INSIGHTS之外的内容已提取完毕。
+
+---
