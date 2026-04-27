@@ -2610,3 +2610,13 @@ NO_INSIGHTS之外仅此一条有价值信息。
 其余频道无有价值信息。
 
 ---
+
+## 2026-04-27 15:05
+
+- #algo-trading: 算法测试只跑当天数据的10%（约200k-300k之间的开始时间段），需要注意backtester样本与实测样本可能差异较大
+- #algo-trading: 上轮有人website backtest仅7-7.5k但最终排到第3名，说明IMC官方backtester分数与最终排名相关性不强，不要过度优化backtester
+- #algo-trading: 多数人在volcanic rock vouchers相关产品上把fair value锚定在5250（Claude推荐值），但锚定该价位的策略在实际round中容易翻车
+- #manual-trading: IMC官方确认（tomas5880）测试时不会刻意挑选有利/不利seed，但若历史数据与最终测试数据因随机性差异过大（如历史均值回归vs最终单边趋势），会重新随机抽取seed以避免不公平
+- #general: 建议用round 4的数据来回测验证策略在不同环境下的鲁棒性
+
+---
