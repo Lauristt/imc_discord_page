@@ -2753,3 +2753,12 @@ NO_INSIGHTS
 - #manual-trading: T+14 解读为 2 周交易日 = 10 个交易日，对应 4×10 步（manual交易题目机制解读）
 
 ---
+
+## 2026-04-27 18:15
+
+- #general: run方法每次调用应在900ms内返回（平均≤100ms），否则超时，需保证算法轻量
+- #algo-trading: HYDROGEL被建议采用均值回归策略
+- #algo-trading: IV scalping策略上午盈利明显，但中午后vol定价趋于合理，担心在10倍tick数据上不可扩展
+- #manual-trading: 本轮manual交易若达到+0.5 SD约可获利100万，1 SD下行风险约600万，方向性押注潜在收益巨大
+
+---
