@@ -2636,3 +2636,13 @@ NO_INSIGHTS之外仅此一条有价值信息。
 NO_INSIGHTS之外其余多为闲聊和求助，无实质策略细节。
 
 ---
+
+## 2026-04-27 15:35
+
+- #algo-trading: 顶尖队伍（前2名）可能采用了与其他人不同的alpha策略（特别是在期权方面），其余前10与前20的差距更多来自mean reversion参数拟合的运气
+- #algo-trading: 参数调优建议使用Optuna，选择"最稳健"的参数而不是回测最优参数（避免过拟合），最优参数实际表现往往更差
+- #algo-trading: Hydrogel和VOLCANIC_ROCK_VOUCHER (VFE/VEV)可以通过informed flow（知情订单流）来改进策略
+- #algo-trading: 改进voucher策略的方向：inventory skew、toxic flow filter（如Mark 67）、dynamic voucher scaling
+- #manual-trading: 第4轮manual题目方差巨大，同样规则的100次模拟平均值在不同run间从-90k到+800k波动，建议对冲或选择性下注而非全押
+
+---
