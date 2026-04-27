@@ -2214,3 +2214,12 @@ NO_INSIGHTS
 human_acknowledgment: NO_INSIGHTS不适用，已提取见解。
 
 ---
+
+## 2026-04-26 20:56
+
+- #algo-trading: 第4轮与第3轮相比，产品相同但增加了交易对手方(counter party)信息；实盘交易可能不提供买卖方名称，仅历史数据中有
+- #algo-trading: 数据中可能存在多个"alpha"信号(基于交易对手方)，第一阶段只有Lauchy发现了
+- #manual-trading: manual交易中的"price"列只是显示投资成本，与PnL无关，可忽略不影响决策
+- #manual-trading: 仅100次模拟可能出现较多异常值，建议多跑几组100次模拟来评估稳定性
+
+---
