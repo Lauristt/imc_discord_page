@@ -2393,3 +2393,13 @@ Wait, let me reconsider. The message about spread being too large and outliers h
 </result>
 
 ---
+
+## 2026-04-27 08:50
+
+- #algo-trading: ITM期权无外在价值，用BSM计算IV不合理；应关注bid/ask的IV，它们很少交叉
+- #algo-trading: 今年期权策略难度显著提高，去年BSM做空+IV回归策略不再适用；存在合理的期权策略但收益很小
+- #algo-trading: 4500行权价期权的IV变化对盈利贡献极小
+- #algo-trading: 提到一个Rust回测器资源：https://github.com/GeyzsoN/prosperity_rust_backtester
+- #manual-trading: Chooser option机制——2周后根据当时ATM情况自动转为call或put，之后还有1周到期
+
+---
