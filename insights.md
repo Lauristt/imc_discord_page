@@ -2275,3 +2275,12 @@ human_acknowledgment: NO_INSIGHTS不适用，已提取见解。
 - Manual交易：所有玩家的交易都在相同的100次模拟上评估（公平统一）
 
 ---
+
+## 2026-04-27 05:24
+
+- Manual交易: Chooser option机制澄清——若行权价高于标的资产价格则变为put，若低于则变为call
+
+=== #algo-trading ===
+NO_INSIGHTS
+
+---
