@@ -2376,3 +2376,12 @@ Wait, let me reconsider. The message about spread being too large and outliers h
 - algo-trading: 对每个voucher独立计算IV，跟踪IV的EMA作为"公允价格"进行交易的策略思路
 
 ---
+
+## 2026-04-27 08:40
+
+- #algo-trading: 多数选手在voucher（期权）产品上的盈利超过常规产品
+- #algo-trading: IV的EMA策略效果不佳，因IV波动幅度太小无法覆盖买卖价差，快速期权交易容易被spread吃掉
+- #algo-trading: 简单的阈值策略思路：价格高于阈值卖出，低于阈值买入（mean reversion）
+- #algo-trading: 即使IV预测准确，也常因spread导致亏损
+
+---
