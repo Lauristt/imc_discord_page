@@ -2694,3 +2694,11 @@ NO_INSIGHTS的反面——已提取见解如上。
 - Manual trading各队伍使用相同的随机种子
 
 ---
+
+## 2026-04-27 16:10
+
+- #algo-trading: 寻找信号的方法建议——将CSV图表与纯多头算法对比，从counterparty入手，结合size等组合可能产生可预测的正向信号
+- #algo-trading: 有人提到HG（可能指某product）每天可盈利100万+
+- #manual-trading: 官方不会通过hack seed限制PnL，但会避免样本外数据与历史数据风格差异过大（如历史均值回归、样本外单边趋势）的误导性情况
+
+---
