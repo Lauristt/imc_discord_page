@@ -2314,3 +2314,10 @@ NO_INSIGHTS
 - #manual-trading: Manual提交以100次模拟运行，结果存在较大不确定性，最终成绩按均值计算；某些选项组合方差极大，应优先选择结果较为稳定的组合
 
 ---
+
+## 2026-04-27 07:15
+
+- #algo-trading: 选手提到round 3和round 4的IV（隐含波动率）存在根本性差异，可能影响voucher定价策略
+- #manual-trading: 讨论manual trading中分布预测的策略，提到使用CVaR优化而非纯EV最大化以应对潜在的不利seed风险
+
+---
