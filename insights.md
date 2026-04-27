@@ -2713,3 +2713,10 @@ NO_INSIGHTS的反面——已提取见解如上。
 NO_INSIGHTS
 
 ---
+
+## 2026-04-27 16:35
+
+- #algo-trading: 有选手提到Magnificent Macarons (Mark 67?) 用 T-score 和 wall mid 策略赚钱较容易；Hydrogel (Volcanic Rock?) 策略PnL约200k
+- #manual-trading: Round 5 manual题模拟40次不同策略，最大EV结果方差极大（-200k到600k），结果高度不确定
+
+---
