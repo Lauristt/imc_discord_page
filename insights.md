@@ -2770,3 +2770,13 @@ NO_INSIGHTS
 NO_INSIGHTS对manual-trading部分（仅为关于下注策略的闲聊讨论）
 
 ---
+
+## 2026-04-27 18:30
+
+- #algo-trading: 有选手反馈mean reversion策略在velvet上有效，但在hydrogel上不奏效
+
+---
+
+其余消息均为闲聊或玩笑，无实质交易信息。
+
+---
