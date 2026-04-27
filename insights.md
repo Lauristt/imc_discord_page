@@ -2570,3 +2570,10 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - #manual-trading: 订单簿中显示数量为50
 
 ---
+
+## 2026-04-27 14:40
+
+- #algo-trading: 仅Velvet及其期权策略在历史数据回测PNL达385k，但IMC官方backtester显示负PNL；提示注意官方backtester只用了第3天10%数据，参考价值有限，需警惕过拟合和bot行为依赖。
+- #manual-trading: Aether Crystal的描述文本（"存储和稳定能量波动"）可能是题目隐藏信号；AC_50_P为执行价50 XIREC、到期21天的看跌期权，从Round 1开始计时，目前在Round 4，需根据已过天数计算剩余到期时间。
+
+---
