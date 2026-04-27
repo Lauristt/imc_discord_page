@@ -2726,3 +2726,13 @@ NO_INSIGHTS
 - manual-trading: 关于AC_50_P看跌期权TTE的讨论，wiki中说明实际TTE应为15天而非题面所述的21天，且与Round 1无关联
 
 ---
+
+## 2026-04-27 17:05
+
+#algo-trading
+- IMC题目通常设计了特定的数学函数关系，参数较少，神经网络不是最优解，应该尝试找出准确的函数关系而非拟合大量参数
+- 历史数据量不足以正确训练LSTM或做regime classification
+- 有人提到去掉delta hedge后web PnL达到9k（高风险但可能高收益的方向性押注）
+- Magnificent Macarons (mark67?) 的规律简单，可用简单规则准确预测，无需神经网络
+
+---
