@@ -2205,3 +2205,12 @@ NO_INSIGHTS
 - 有观点认为产品间无相关性、无领先滞后关系、也无bot间依赖关系
 
 ---
+
+## 2026-04-26 20:40
+
+- #algo-trading: 本轮被普遍认为是hardcode题，网站分数超过20k可能已属过拟合，建议探索数据中未被发掘的思路而非调参
+- #algo-trading: 官方暗示可以hardcode但需要聪明地处理
+
+human_acknowledgment: NO_INSIGHTS不适用，已提取见解。
+
+---
