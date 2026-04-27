@@ -2720,3 +2720,9 @@ NO_INSIGHTS
 - #manual-trading: Round 5 manual题模拟40次不同策略，最大EV结果方差极大（-200k到600k），结果高度不确定
 
 ---
+
+## 2026-04-27 17:00
+
+- manual-trading: 关于AC_50_P看跌期权TTE的讨论，wiki中说明实际TTE应为15天而非题面所述的21天，且与Round 1无关联
+
+---
