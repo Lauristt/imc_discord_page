@@ -2548,3 +2548,10 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - algo-trading: 有人提到对magnificent macarons (mark 67)估算fair value效果不错，但可能过拟合
 
 ---
+
+## 2026-04-27 14:04
+
+- hydrogel信号不可靠，不要盲目信任（即使informed traders也在交易hydrogel）
+- 期权/时间相关计算中，BASE_DAYS_LEFT=4.0，DAYS_PER_YEAR取值（365 vs 252）存在讨论
+
+---
