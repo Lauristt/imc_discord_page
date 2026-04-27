@@ -2481,3 +2481,11 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - 有选手将mark信号作为算法约30%的组成部分，回测可达约800k
 
 ---
+
+## 2026-04-27 12:00
+
+- VOLCANIC_ROCK (VEF) 上有一个明显的informed bot信号，可作为交易参考
+- HYDROGEL (volcanic_rock vouchers相关) 上有两个"dumb bots"，可被利用
+- 这些bot行为清晰但难以有效变现
+
+---
