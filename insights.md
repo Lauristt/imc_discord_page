@@ -2329,3 +2329,13 @@ NO_INSIGHTS
 NO_INSIGHTS适用于algo频道（仅闲聊和排名讨论，无具体策略信息）。
 
 ---
+
+## 2026-04-27 07:55
+
+- #algo-trading: Round 3官方PnL与本地Backtest差距巨大（2.5k本地 vs 40k官方），提示backtest与实际bot行为差异显著，需研究bot行为
+- #algo-trading: 今年波动率smile拟合不如去年，简单抛物线拟合效果差，部分选手尝试结合bot行为来改进smile拟合
+- #manual-trading: Round 4 manual题估算：约1000总成交量 × 3000合约规模 × 0.05价差，可作为收益量级参考
+- #manual-trading: 有选手用12 seeds × 30000 paths的蒙特卡洛模拟来评估manual策略
+- #manual-trading: 讨论提到manual round存在通过极端"hail mary"策略博取小概率高排名的玩法
+
+---
