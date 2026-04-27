@@ -2300,3 +2300,10 @@ NO_INSIGHTS
 - #manual-trading: 模拟共运行60步，T14到期合约在第40步后PnL保持恒定，T21合约PnL在40-60步之间继续波动
 
 ---
+
+## 2026-04-27 06:30
+
+- Round选手分享：官方PnL约66k，其中hydrogel贡献约1.6k，options约5k（每个产品有差异）
+- Manual交易提示：KO（Knock-Out）是普通看跌期权，除非被敲出失效
+
+---
