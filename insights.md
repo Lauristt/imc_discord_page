@@ -2223,3 +2223,11 @@ human_acknowledgment: NO_INSIGHTS不适用，已提取见解。
 - #manual-trading: 仅100次模拟可能出现较多异常值，建议多跑几组100次模拟来评估稳定性
 
 ---
+
+## 2026-04-27 00:20
+
+- delta 1 产品策略：使用 grand mean 而非 rolling mean，可以重建 OU 过程
+- informed flows 在 round 3 已存在但被掩盖，现在可能通过 trader IDs 显式展现
+- 第 3 轮某选手单轮获利 220K+，但需警惕过拟合风险
+
+---
