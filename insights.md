@@ -2489,3 +2489,11 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - 这些bot行为清晰但难以有效变现
 
 ---
+
+## 2026-04-27 12:08
+
+- #algo-trading: 有选手认为Mark22挂单中存在买方edge机会（如VEV5300等档位edge约+0.51到+0.74/单位），但edge偏小，可利用性存疑
+- #algo-trading: Mark49被认为是较有alpha潜力的信号，t-stat较高，但可能是噪声
+- #algo-trading: 有选手提示Mark系列产品本身是可交易的，不仅是参考信号
+
+---
