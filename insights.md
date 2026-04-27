@@ -2238,3 +2238,10 @@ human_acknowledgment: NO_INSIGHTS不适用，已提取见解。
 - #manual-trading: 有选手反映R3算法过于保守导致排名下滑，本轮策略转向高风险博弈，而manual部分则倾向理性稳健操作以获取排位收益。
 
 ---
+
+## 2026-04-27 01:07
+
+- manual-trading: 本轮manual中vanilla期权接近公允定价，已price in所有信息，对100条路径平均的期望PnL不会很高
+- algo-trading: 本轮manual不应使用Black-Scholes定价，需考虑其他方法
+
+---
