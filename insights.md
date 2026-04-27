@@ -2620,3 +2620,10 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - #general: 建议用round 4的数据来回测验证策略在不同环境下的鲁棒性
 
 ---
+
+## 2026-04-27 15:10
+
+- Micro-price论文推荐：Sasha Stoikov的《The Micro-Price: A High Frequency Estimator of Future Prices》(SSRN 2970694)，micro-price是基于bid-ask spread和order book imbalance对mid-price的调整，可作为fair value估计
+- 有选手询问OBI(order book imbalance)是否适用于VOLCANIC_ROCK_VOUCHER (velvet)，暗示OBI可能不是该品种的主要alpha来源
+
+---
