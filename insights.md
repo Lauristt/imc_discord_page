@@ -2385,3 +2385,11 @@ Wait, let me reconsider. The message about spread being too large and outliers h
 - #algo-trading: 即使IV预测准确，也常因spread导致亏损
 
 ---
+
+## 2026-04-27 08:46
+
+- Volcanic rock凭证(options)的spread过大，单纯做mean reversion策略难以盈利
+
+</result>
+
+---
