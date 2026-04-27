@@ -2231,3 +2231,10 @@ human_acknowledgment: NO_INSIGHTS不适用，已提取见解。
 - 第 3 轮某选手单轮获利 220K+，但需警惕过拟合风险
 
 ---
+
+## 2026-04-27 00:45
+
+- #algo-trading: 有选手认为backtester在不同round间表现不一致，每轮都需要重新调参，怀疑backtester并非round独立。
+- #manual-trading: 有选手反映R3算法过于保守导致排名下滑，本轮策略转向高风险博弈，而manual部分则倾向理性稳健操作以获取排位收益。
+
+---
