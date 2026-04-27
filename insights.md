@@ -2245,3 +2245,10 @@ human_acknowledgment: NO_INSIGHTS不适用，已提取见解。
 - algo-trading: 本轮manual不应使用Black-Scholes定价，需考虑其他方法
 
 ---
+
+## 2026-04-27 01:10
+
+- #algo-trading: 本轮manual trading中IMC在wiki明示价格路径遵循GBM，使用Black-Scholes定价vanilla期权时，主要被打破的假设仅为离散监测
+- #manual-trading: 有选手观察到AC_50_P（执行价50的看跌期权）价格显著高于其他期权，原因待解（可能存在定价异常或套利机会）
+
+---
