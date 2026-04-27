@@ -2585,3 +2585,18 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - manual-trading：manual交易中price列只是装饰性显示"投资成本"，与PnL无关，不应影响决策
 
 ---
+
+## 2026-04-27 14:55
+
+=== #algo-trading ===
+- 有选手在IMC回测中第3轮PnL约7.5k，与本地回测差异较大，需注意是否过拟合
+- 讨论使用Rust回测器时的 --trade-match-mode worse 参数选择
+- 不含informed bots时策略约790k，含bots后约60-90k范围
+
+=== #manual-trading ===
+- Round 4期权题(AC_50_CO等)：notion说明t=0买入持有至到期，但界面显示21/14天到期，需澄清实际剩余时间
+- 期权"自动转为in the money方向"机制中，若到期价格恰好等于行权价(ATM)，默认行为不明
+- 100次模拟取平均的设定下，押注极端outlier不是可行策略
+- 模拟实验显示：纯max EV策略在100k次对比中超过50%的情况击败hedging策略，尽管IMC似乎暗示鼓励hedging
+
+---
