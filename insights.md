@@ -2370,3 +2370,9 @@ Wait, let me reconsider. The message about spread being too large and outliers h
 - 去年期权IV策略有效是因为spread普遍为1，今年spread变大后alpha显著缩水
 
 ---
+
+## 2026-04-27 08:35
+
+- algo-trading: 对每个voucher独立计算IV，跟踪IV的EMA作为"公允价格"进行交易的策略思路
+
+---
