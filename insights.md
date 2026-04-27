@@ -2541,3 +2541,10 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - #manual-trading: Round 4 manual题目理论最大收益>8.5M但需极大运气；建议不要全仓投入全部可用volume，否则单次亏损可能抹掉Round 3/4/5全部利润
 
 ---
+
+## 2026-04-27 13:29
+
+- manual-trading: 本轮manual交易理论最高收益约8.5M，虽然不太可能达到但技术上可行
+- algo-trading: 有人提到对magnificent macarons (mark 67)估算fair value效果不错，但可能过拟合
+
+---
