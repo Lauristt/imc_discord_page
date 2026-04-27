@@ -2646,3 +2646,15 @@ NO_INSIGHTS之外其余多为闲聊和求助，无实质策略细节。
 - #manual-trading: 第4轮manual题目方差巨大，同样规则的100次模拟平均值在不同run间从-90k到+800k波动，建议对冲或选择性下注而非全押
 
 ---
+
+## 2026-04-27 15:40
+
+- #algo-trading: 选手建议使用稳定参数而非最高目标分数的参数（避免过拟合）
+- #algo-trading: 主要PnL来源于VOLCANIC_ROCK_VOUCHER（VEV）的杠杆操作
+- #algo-trading: Mean Reversion策略可用合理fair value估计并在其周围建band
+- #algo-trading: 多alpha叠加（stacking alphas）的思路
+- #algo-trading: 模型选择：分别调参后再比较目标分数选最佳
+- #algo-trading: 对VFE，volatility smile不一定直接用于mean reversion信号
+- #manual-trading: Manual题评估机制讨论：可能是100次试验的平均PnL，提示倾向风险调整后的PnL，暗示风险管理+高波动率组合较优
+
+---
