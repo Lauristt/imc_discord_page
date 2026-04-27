@@ -2362,3 +2362,11 @@ Wait, let me reconsider. The message about spread being too large and outliers h
 - spread过大且异常报价通常是低成交量quotes，难以从中获利
 
 ---
+
+## 2026-04-27 08:35
+
+- IV/期权策略实测收益有限：选手反映即使做IV scalping、smile fitting等期权策略，每天最多20k左右，远不及在主资产上做mean reversion能轻松赚到的200k
+- R3排行榜高分主要来源于在主资产上做激进的mean reversion策略，而非期权套利
+- 去年期权IV策略有效是因为spread普遍为1，今年spread变大后alpha显著缩水
+
+---
