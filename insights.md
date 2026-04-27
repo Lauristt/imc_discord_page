@@ -2670,3 +2670,11 @@ NO_INSIGHTS之外其余多为闲聊和求助，无实质策略细节。
 NO_INSIGHTS的反面——已提取见解如上。
 
 ---
+
+## 2026-04-27 15:55
+
+- #algo-trading: voucher产品基于Velvfruit而非hydrogel（wiki中明确说明）
+- #algo-trading: fair value估计可用快慢EMA组合，每个tick更新（状态机方式）
+- #algo-trading: 顶尖队伍可能掌握额外alpha，最终成绩仍含运气因素（最终holdout种子）
+
+---
