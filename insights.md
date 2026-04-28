@@ -3375,3 +3375,10 @@ NO_INSIGHTS（其余为闲聊）
 - 当算法PnL波动较大时，可考虑设置盈利上限（如达到300k后停止D1交易）以锁定收益
 
 ---
+
+## 2026-04-28 11:55
+
+- #algo-trading: 在VEL期权上，单纯做市比gamma scalping收益更高；可通过IV计算gamma并测量已实现波动率来估算gamma scalping的理论最大收益（不含spread成本）。
+- #algo-trading: 网站上Round的PnL基准约为25k，且无需对波动率smile建模即可达到该水平。
+
+---
