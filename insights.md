@@ -3012,3 +3012,12 @@ NO_INSIGHTS其余内容为闲聊。
 - 由于manual奖金上限5000，落后者倾向于赌博式下注
 
 ---
+
+## 2026-04-28 04:25
+
+- #manual-trading: 有选手用Monte Carlo模拟（7600万组合）寻找manual round的最优期权组合，结果显示AC_45_KO（敲出期权）大量做多+AC裸空200+多个put/call组合可获566k均值，但标准差极高（3000万+），Q5为-5700万，本质是高方差赌博
+- #manual-trading: 该策略的核心是大量持有AC_45_KO（500手）配合空AC标的和复杂的put/call spread结构
+- #algo-trading: round 4 backtest表现：顶尖选手平均每日PnL在320k-400k+，网站显示68k但backtest达620k+的策略被认为相对不overfit
+- #algo-trading: 部分选手担忧round 4末段VFE等volcano相关产品价格可能剧烈波动（如冲到7k），策略对结尾行情表现存在不确定性
+
+---
