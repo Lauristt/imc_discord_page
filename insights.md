@@ -3473,3 +3473,9 @@ NO_INSIGHTS（其余为闲聊）
 NO_INSIGHTS对algo-trading频道（无实质策略信息，仅闲聊和调侃）
 
 ---
+
+## 2026-04-28 15:33
+
+- manual交易费用公式：fee = (volume/100)² × budget，其中volume为分配百分比（如20%即代入20），等价于100·x²（x为百分比小数形式）
+
+---
