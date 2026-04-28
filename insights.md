@@ -2858,3 +2858,9 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - #manual-trading: 手动交易EV约+1M，标准差约1.5M
 
 ---
+
+## 2026-04-27 23:54
+
+- Round 4 (equirag/可能是magnificent macarons相关) 硬编码最优解的最大收益约为28万
+
+---
