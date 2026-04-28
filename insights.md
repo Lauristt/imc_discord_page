@@ -3271,3 +3271,12 @@ NO_INSIGHTS（其余为闲聊）
 - #manual-trading: 有选手提示"phoenix from the ashes"暗示可能与资产复活/重生相关（参考avatar Ozai等线索），属于题目叙事性提示
 
 ---
+
+## 2026-04-28 10:30
+
+- #general: IV错误定价本身具有均值回归特性，可以用IV估值做偏斜做市，同时利用错误定价的均值回归进行交易
+- #general: 上届Prosperity前20对本届奖金资格无影响，仅前10在全球Top25队伍中受关注
+- #manual-trading: 第4轮manual普遍亏损严重(多人报告-150k到-200k)，提示该轮难度高/陷阱多，需谨慎下注
+- #manual-trading: 有选手认为第4轮manual最优策略是多目标优化中的帕累托最优采样
+
+---
