@@ -3332,3 +3332,11 @@ NO_INSIGHTS（其余为闲聊）
 - Manual交易中volume_for_specific_product疑为百分比分配（如20代表20%），PnL计算机制及"used budget扣减"含义仍存疑
 
 ---
+
+## 2026-04-28 11:10
+
+- #manual-trading: 手动交易PnL计算说明——投入100k涨20%变120k时，PnL只增加20k（扣除本金），与平台费用公式逻辑一致
+- #manual-trading: 每个产品的次日收益基于设定区间与玩家平均交易行为共同决定（确保不会出现单边错误定价）
+- #manual-trading: 此轮新机制仅适用于manual trading，时间范围为1天
+
+---
