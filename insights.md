@@ -2864,3 +2864,19 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - Round 4 (equirag/可能是magnificent macarons相关) 硬编码最优解的最大收益约为28万
 
 ---
+
+## 2026-04-28 00:09
+
+=== #manual-trading ===
+- 期权到期时间换算：每7天对应5个交易日；14天和21天到期分别还剩10和15个交易日
+- 有人推测volcanic rock vouchers的标的均值需要落在50附近，否则会让大量队伍获得巨额利润
+- 满仓押注（full porting）单一方向并非最优策略，除非已经落后需要博一搏
+- 有团队在manual交易上达到约45万PnL（95分位）
+
+=== #algo-trading ===
+- 讨论用jump-diffusion过程或Volterra过程对期权/标的建模，可能涉及regime change
+- 提醒注意当前submission测试可能在样本内数据上跑，存在过拟合风险
+
+(其他多为闲聊，无实质信息)
+
+---
