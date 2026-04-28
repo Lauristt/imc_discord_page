@@ -3262,3 +3262,12 @@ NO_INSIGHTS（其余为闲聊）
 - manual-trading: 即使确定某商品（如lava cake）会上涨，但如果历史上从未有过1%以上的波动，分配过多资金仍不明智；移动幅度难以估计
 
 ---
+
+## 2026-04-28 10:15
+
+- #manual-trading: 选手对manual题目存在困惑——不确定交易标的是商品本身还是公司股票，文本表述模糊（如lava cake的垄断描述）
+- #manual-trading: 有人提出由于交易费用较高，单日内价格波动可能难以覆盖费用，考虑全部押注一个资产或全部填0的极端策略
+- #manual-trading: UI显示卖出时会从预算中扣除，疑似bug或机制需澄清
+- #manual-trading: 有选手提示"phoenix from the ashes"暗示可能与资产复活/重生相关（参考avatar Ozai等线索），属于题目叙事性提示
+
+---
