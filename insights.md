@@ -3347,3 +3347,12 @@ NO_INSIGHTS（其余为闲聊）
 - #manual-trading: R4 manual题目最大EV策略可能拿到约160k EV，但实际结果方差极大（最差39%约23.5k，高31%约354k），运气成分高
 
 ---
+
+## 2026-04-28 11:35
+
+- #general: 本轮CSV中buyer/seller字段为空，没有counterparty信息，但有许多新的bot参与
+- #algo-trading: 可以交易全部50个产品，不限于单一类别
+- #algo-trading: 有选手尝试自适应贝叶斯信任过滤器（根据insider近期胜率动态启用/禁用），但效果转负
+- #manual-trading: 手动交易最大EV预期PnL约为159-161k
+
+---
