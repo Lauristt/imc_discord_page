@@ -3322,3 +3322,13 @@ NO_INSIGHTS（其余为闲聊）
 - #manual-trading: 组织方提供了模型和波动率并跑100次模拟，按理应支持精确EV计算，但实际却倾向于"安全"策略，存在矛盾
 
 ---
+
+## 2026-04-28 11:05
+
+- R5是"探索题"风格，相对R1-R4更exotic；MR（均值回归）策略在Prosperity中非常常见，因实际数据往往呈MR特征
+- 有玩家用初版策略在backtester上达到约100万PnL（3天）
+- Taker bot即使在spread达200的极宽情况下仍偶有成交，触发逻辑难以识别规律
+- R5题目疑似涉及"基于交易成本的成交概率"机制
+- Manual交易中volume_for_specific_product疑为百分比分配（如20代表20%），PnL计算机制及"used budget扣减"含义仍存疑
+
+---
