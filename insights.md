@@ -3222,3 +3222,12 @@ NO_INSIGHTS（其余为闲聊）
 - 公式中存在fee项，被扣预算（used budget）会从PnL中扣除，fee是否额外扣除尚不明确。
 
 ---
+
+## 2026-04-28 08:59
+
+- R5 manual策略讨论：最优策略是高EV(+34k)但高方差(500k std)的方案，而非+170k EV/350k std；最高EV方案严重short Gamma
+- R5 manual据称是基于option类策略，有人采用straddle（年化波动率251%下押注突破盈亏平衡点），事后认为short strangle会更优
+- 一种较好的R5 manual策略：P(loss)=28%, mean profit=160k，位于Pareto frontier上
+- R5算法交易简单策略：买入所有strike<5250的期权，卖出所有strike>5250的期权，可达算法榜top 200
+
+---
