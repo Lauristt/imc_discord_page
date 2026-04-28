@@ -3340,3 +3340,10 @@ NO_INSIGHTS（其余为闲聊）
 - #manual-trading: 此轮新机制仅适用于manual trading，时间范围为1天
 
 ---
+
+## 2026-04-28 11:25
+
+- #general: Mark 67 (Volcanic Rock相关)可以被操纵——约22.3%的时间能让它以远好于穿越spread的价格与你交易；成交概率取决于报价距离mid的远近
+- #manual-trading: R4 manual题目最大EV策略可能拿到约160k EV，但实际结果方差极大（最差39%约23.5k，高31%约354k），运气成分高
+
+---
