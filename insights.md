@@ -3149,3 +3149,11 @@ NO_INSIGHTS的部分：manual频道仅是闲聊，无实质信息
 NO_INSIGHTS其余消息基本为闲聊。
 
 ---
+
+## 2026-04-28 07:23
+
+#manual-trading
+- manual题目可能并非随机模拟，措辞"100 simulations of the underlying"暗示结果间存在相关性，采用+EV策略时需考虑结果相关性
+- 由于结果相关，做与高EV策略相反方向的对冲/反向选择也可能是一种博弈思路
+
+---
