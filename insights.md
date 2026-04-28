@@ -2889,3 +2889,11 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - #manual-trading: 期权类题目Time To Expiry为21个Solvenarian Days（从Round 1的Intara开始）。
 
 ---
+
+## 2026-04-28 01:20
+
+- 部分选手在第3天主要靠交易VOLCANIC_ROCK_VOUCHER_6000和6500获得大部分收益
+- 有选手通过交易5000和5100行权价的voucher获得约25万收益
+- 提示：6000 voucher可能因深度虚值而有特定交易机会（"Mark 55"分享过相关思路）
+
+---
