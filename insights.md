@@ -2897,3 +2897,11 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - 提示：6000 voucher可能因深度虚值而有特定交易机会（"Mark 55"分享过相关思路）
 
 ---
+
+## 2026-04-28 02:15
+
+- #manual-trading: 官方确认round 4 manual所有队伍共用同一组100次模拟运行（不是每队独立模拟）
+- #algo-trading: 第3轮算法收益普遍存在过拟合现象，portal回测20k实测48k或portal13k实测-45k等偏差较大；无过拟合的合理上限约96-97k
+- #algo-trading: 有人怀疑hydrogel（新product）适合均值回归策略
+
+---
