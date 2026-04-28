@@ -3056,3 +3056,13 @@ NO_INSIGHTS之外的有效信息已提炼完毕。
 NO_INSIGHTS（manual-trading部分无实质信息）
 
 ---
+
+## 2026-04-28 05:20
+
+- #manual-trading: 比赛排名只有前5名有实际价值，类似看涨期权——最优策略是增大方差（做高波动决策），即使是负EV也可能因提升入围概率而合理
+- #manual-trading: 据传组织方可能会剔除异常seed或在某人赚到极端收益时重跑manual round，参赛者应有此心理预期
+- #algo-trading: 第3轮可使用与前一轮相同的提交文件（说明策略具有跨轮稳定性）
+- #algo-trading: 有团队尝试通过操纵fair price进行交易，并怀疑Mark（大额交易者）是按VWAP执行
+- #algo-trading: 关于期权类产品定价，提到使用GBM + 蒙特卡洛模拟来确定交易阈值
+
+---
