@@ -3124,3 +3124,11 @@ NO_INSIGHTS的部分：manual频道仅是闲聊，无实质信息
 - Round 5算法交易中存在小规模套利/alpha机会（约10k级别），可能涉及篮子交易（basket trading）
 
 ---
+
+## 2026-04-28 06:52
+
+- manual-trading: 最终PnL基于100次模拟平均，因此无需特意选种子
+- manual-trading: 在winner-take-all的比赛机制下，最大化方差（而非EV）才是最优策略，因为负EV在百万级标准差面前不重要
+- manual-trading: 存在"最优赌博"策略——根据排行榜位置动态选择风险水平（SR）以最大化夺冠概率
+
+---
