@@ -2807,3 +2807,14 @@ NO_INSIGHTS对manual-trading部分（仅为关于下注策略的闲聊讨论）
 - #algo-trading: 尝试操纵产品22未成功；但存在可利用的bot行为模式，不过收益较薄
 
 ---
+
+## 2026-04-27 20:50
+
+- #manual-trading: 有选手认为manual题不需要对冲，直接最大化期望收益(max_E)即可
+
+NO_INSIGHTS其余内容多为闲聊。
+
+（最终输出仅一条有效见解）
+- #manual-trading: 对于本轮manual题，有人主张无需hedge，直接最大化期望值
+
+---
