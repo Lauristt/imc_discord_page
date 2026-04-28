@@ -3244,3 +3244,14 @@ NO_INSIGHTS（其余为闲聊）
 - 有人质疑45_KO在被低估时却被max sell，提示组合中可能存在反直觉的最优解
 
 ---
+
+## 2026-04-28 10:00
+
+- R4 voucher市场结构观察：实际只有1个taker且交易量很小，其余都是做市商；taker会以不利价格成交。这种结构下IV smile做市+delta对冲难以盈利，简单的均值回归策略反而表现更好
+- 构建voucher的IV smile时，可分别用voucher ask配underlying bid、voucher bid配underlying ask构建两条smile；ask smile较干净，bid smile呈阶梯函数形态（反映其他做市商的多空敞口）
+- R4最终榜单顶级策略多为均值回归（而非复杂的期权做市/IV策略）
+- 前两轮主要alpha为velvet均值回归 + 用ITM期权放杠杆
+- R5最终轮可能PnL上限约1.5M左右
+- R5 manual：文章只给方向性提示，但有手续费机制，缺乏量级估计信息，难以精确决策
+
+---
