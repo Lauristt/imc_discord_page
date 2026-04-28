@@ -3048,3 +3048,11 @@ NO_INSIGHTS之外的有效信息已提炼完毕。
 - 怀疑Manual的样本可能被组织方挑选过以偏向低方差策略
 
 ---
+
+## 2026-04-28 05:16
+
+- #algo-trading: 本轮（最后一轮）排名靠前的队伍多采用均值回归(mean reversion)策略
+
+NO_INSIGHTS（manual-trading部分无实质信息）
+
+---
