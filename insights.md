@@ -3396,3 +3396,14 @@ NO_INSIGHTS（其余为闲聊）
 - 建议加入fallback机制以防主策略失效
 
 ---
+
+## 2026-04-28 12:26
+
+- krokson的R5分析：最佳alpha是同组产品族内部的相对价值（cluster-local relative value），组内平均收益相关性约0.062，跨组仅0.006，强约一个数量级
+- 未发现稳定的lead-lag关系，有用的关系基本是同步的，因此edge来自spread均值回归而非预测
+- 最强的walk-forward spread对：MICROCHIP_RECTANGLE vs MICROCHIP_SQUARE（日2→3和3→4平均Sharpe约1.73，累计PnL约3888）
+- 次优稳定spread对：SNACKPACK_RASPBERRY vs SNACKPACK_VANILLA、GALAXY_SOUNDS_SOLAR_FLAMES vs SOLAR_WINDS、SLEEP_POD_LAMB_WOOL vs NYLON
+- 验证集与测试集表现差异极大（12k vs -10k PnL），提示存在过拟合风险
+- 有选手声称解码了所有bot的触发交易过程，认为Mark 67的盈利源于偶然方向正确而非信息优势
+
+---
