@@ -3066,3 +3066,11 @@ NO_INSIGHTS（manual-trading部分无实质信息）
 - #algo-trading: 关于期权类产品定价，提到使用GBM + 蒙特卡洛模拟来确定交易阈值
 
 ---
+
+## 2026-04-28 05:45
+
+- #manual-trading: 有选手将本轮manual trading视为call option模拟，使用优化器最大化P(PnL>2M)的概率（约30%），而非最大化期望，PnL分布近似正态，0均值、3.5M标准差
+- #manual-trading: 本轮的效用函数类似扑克ICM，倾向选择高风险高回报选项以最大化方差
+- #algo-trading: 历史数据频谱分析在3000和8888处有尖峰但无实际用处；DSP方法效果不佳，统计方法更有效（去年冠军即统计派）
+
+---
