@@ -3083,3 +3083,9 @@ NO_INSIGHTS（manual-trading部分无实质信息）
 NO_INSIGHTS的部分：manual频道仅是闲聊，无实质信息
 
 ---
+
+## 2026-04-28 06:05
+
+- #algo-trading: R3 中做市（making）比吃单（taking）更难，是普遍共识。
+
+---
