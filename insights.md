@@ -3356,3 +3356,12 @@ NO_INSIGHTS（其余为闲聊）
 - #manual-trading: 手动交易最大EV预期PnL约为159-161k
 
 ---
+
+## 2026-04-28 11:45
+
+- Round 4中bot信号的alpha不如R2明显，多数选手只发现轻微的skew信号
+- Mark67被识别为VEV产品上的激进taker（非insider）：当挂单越过真实FV时会以小量(3-5)成交，可作为FV参考
+- Mark38、Mark55、Mark01被认为是R4中alpha最强的几个bot
+- 应对insider/激进bot的简单策略：在其交易后调整自己的fair value估计
+
+---
