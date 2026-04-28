@@ -2818,3 +2818,11 @@ NO_INSIGHTS其余内容多为闲聊。
 - #manual-trading: 对于本轮manual题，有人主张无需hedge，直接最大化期望值
 
 ---
+
+## 2026-04-27 20:57
+
+- manual-trading: 一份期权合约对应3000份Ancient Coins (AC)，单合约最大3000
+
+NO_INSIGHTS之外仅此一条有价值信息。
+
+---
