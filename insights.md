@@ -3181,3 +3181,14 @@ NO_INSIGHTS其余消息基本为闲聊。
 - #manual-trading: 关于Manual期权题——组织者似乎选择了低方差种子（如波动率精确251%而非随机扰动），导致最优策略是直接选最高EV、忽略方差，而非最大化方差去博尾部
 
 ---
+
+## 2026-04-28 08:19
+
+- #algo-trading: 有选手分享R5策略——使用硬编码的均值回归参数，并用ITM期权作为杠杆仓位
+- #algo-trading: 有人在R3通过做市+吃单获得平稳PnL曲线但仅15k；提醒纯MM策略在后期回合收益有限
+- #manual-trading: manual题目中如果所有选项都按mid price定价，整体会亏损spread（-300k到0k之间）
+- #manual-trading: 蒙特卡洛模拟显示manual题存在两个峰值的最优解
+
+NO_INSIGHTS（其余为闲聊）
+
+---
