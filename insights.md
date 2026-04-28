@@ -2905,3 +2905,13 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - #algo-trading: 有人怀疑hydrogel（新product）适合均值回归策略
 
 ---
+
+## 2026-04-28 02:25
+
+- #algo-trading: 有选手提醒本轮要警惕regime shift，不要过度拟合短窗口测试，drawdown可能反而是面对未来regime的好信号；认为40-50k回测PnL是合理上限，过高可能是过拟合
+- #algo-trading: 网页模拟器(web sim)结果不稳定，不适合作为基准，建议使用本地backtester并查看day-wise PnL以及跨天一致性来检验稳健性
+- #algo-trading: IMC服务器测试只跑Day 3的约10%数据
+- #general: 有选手提到bots只能用来微调fair value，没有很强的预测性
+- #manual-trading: 关于Solvenarian交易日换算的疑问 - 21 Solv日对应15交易日，14 Solv日对应10交易日（未确认）
+
+---
