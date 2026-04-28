@@ -2880,3 +2880,12 @@ NO_INSIGHTS之外仅此一条有价值信息。
 (其他多为闲聊，无实质信息)
 
 ---
+
+## 2026-04-28 00:14
+
+- #general: 官方确认会监控数据合理性，若历史与最终测试数据差异过大（纯随机导致），会用新的random_seed重跑以保公平。
+- #algo-trading: Hydrogel存在强均值回归特性，可考虑使用mean field market making策略。
+- #algo-trading: 提到用stochastic HMM做regime change point检测的思路。
+- #manual-trading: 期权类题目Time To Expiry为21个Solvenarian Days（从Round 1的Intara开始）。
+
+---
