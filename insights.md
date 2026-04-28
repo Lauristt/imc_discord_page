@@ -3444,3 +3444,9 @@ NO_INSIGHTS（其余为闲聊）
 - snackpacks（picnic basket相关产品）家族存在协整关系，可用于配对/篮子套利策略
 
 ---
+
+## 2026-04-28 14:50
+
+- Manual round 和 algo round 的资产相互独立，没有关联（官方确认）
+
+---
