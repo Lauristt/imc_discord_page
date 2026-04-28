@@ -3107,3 +3107,12 @@ NO_INSIGHTS的部分：manual频道仅是闲聊，无实质信息
 - 有人尝试用MILP（混合整数线性规划）求解manual round
 
 ---
+
+## 2026-04-28 06:20
+
+- #manual-trading: 深度OTM期权的价值在于"错误定价的凸性"(mispriced convexity)，而不是因为累积波动率；评估基于所有模拟的平均值
+- #manual-trading: 用例子说明凸性价值——给定2M行权价的call，N(0, 3M²)分布比N(100k, 300k²)更有价值，因为高方差带来更大尾部收益
+- #manual-trading: 若对算法部分有信心，manual部分可以保守选择
+- #manual-trading: 有人观察到LLM普遍建议"最大化凸性"，反向操作可能是个思路（半开玩笑）
+
+---
