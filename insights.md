@@ -3030,3 +3030,11 @@ NO_INSIGHTS其余内容为闲聊。
 NO_INSIGHTS之外的有效信息已提炼完毕。
 
 ---
+
+## 2026-04-28 04:35
+
+- #manual-trading: 本轮manual被认为是做空标的至200最优，EV为正（基于100k次模拟），但方差较低，胜负主要靠技巧
+- #manual-trading: 有选手用模拟（100k次×100条路径）评估策略EV，确认做空方向EV为正
+- #algo-trading: round 4提交时TTE=4，网页显示TTE=5（时间到期参数差异需注意）
+
+---
