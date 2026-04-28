@@ -2793,3 +2793,10 @@ NO_INSIGHTS对manual-trading部分（仅为关于下注策略的闲聊讨论）
 - #algo-trading: 有人对hydrogel采用均值回归策略，需要确定计算窗口大小和偏离均值的阈值参数
 
 ---
+
+## 2026-04-27 20:22
+
+- 关于gamma scalping：可以做但实现不容易
+- backtester中策略上限大约在800k左右
+
+---
