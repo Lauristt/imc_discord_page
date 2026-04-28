@@ -2848,3 +2848,13 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - Gamma scalping策略据称单日可达20万收益（但有人反对认为不值得花时间）
 
 ---
+
+## 2026-04-27 22:43
+
+- #algo-trading: 某策略在round 3数据平均89k，round 4三天分别为90262/89204/86810，首日91k，含少量硬编码
+- #algo-trading: 有人尝试预测mark 38出现时点未果
+- #algo-trading: 对hydrogel质疑，认为除了均值回归+做市没有其他alpha
+- #manual-trading: 二元期权payoff为10，但有下行风险，模拟器显示的高平均值可能错误
+- #manual-trading: 手动交易EV约+1M，标准差约1.5M
+
+---
