@@ -3089,3 +3089,10 @@ NO_INSIGHTS的部分：manual频道仅是闲聊，无实质信息
 - #algo-trading: R3 中做市（making）比吃单（taking）更难，是普遍共识。
 
 ---
+
+## 2026-04-28 06:12
+
+- Manual round对冲分析：裸chooser策略相比对冲策略平均PnL多约$41k，但std增加$200k+，Sharpe从0.364降至0.11，属于无补偿的方差，对冲锁定$60k无风险收益更优
+- Manual round预期PnL区间根据风险承受度在40k-160k之间
+
+---
