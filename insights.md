@@ -2915,3 +2915,15 @@ NO_INSIGHTS之外仅此一条有价值信息。
 - #manual-trading: 关于Solvenarian交易日换算的疑问 - 21 Solv日对应15交易日，14 Solv日对应10交易日（未确认）
 
 ---
+
+## 2026-04-28 02:30
+
+基于这些消息，提取的有价值信息有限，主要集中在manual trading的期权定价上。
+
+- #manual-trading: 用15个交易日校准的波动率，AC50C/AC50P在T+21的理论价约12.03，与市场报价12.00/12.05一致；若用21天则fair约14——表明应使用15天历史波动率进行校准
+- #manual-trading: 模拟基于约100条预定义路径（可在Wiki确认）
+- #algo-trading: 网页端PnL存在方向性运气成分，单次成绩参考价值有限
+- #algo-trading: 多数选手判断本轮期权存在mispricing，关键在于风险缓释和库存优化，而非单纯加大size做市
+- #algo-trading: 高PnL截图可能是对特定regime的过拟合，未必稳健
+
+---
