@@ -3096,3 +3096,14 @@ NO_INSIGHTS的部分：manual频道仅是闲聊，无实质信息
 - Manual round预期PnL区间根据风险承受度在40k-160k之间
 
 ---
+
+## 2026-04-28 06:17
+
+=== #general ===
+- Hydrogel（疑似新product）表现为趋势+均值回归特性，有10个期权合约
+
+=== #manual-trading ===
+- 观点：比赛奖励结构类似深度OTM看涨期权，PNL波动率比PNL绝对值更重要，应该追求高方差策略而非稳健提升
+- 有人尝试用MILP（混合整数线性规划）求解manual round
+
+---
