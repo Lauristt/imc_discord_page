@@ -3132,3 +3132,12 @@ NO_INSIGHTS的部分：manual频道仅是闲聊，无实质信息
 - manual-trading: 存在"最优赌博"策略——根据排行榜位置动态选择风险水平（SR）以最大化夺冠概率
 
 ---
+
+## 2026-04-28 07:07
+
+- #manual-trading: 有人先优化P>2M的概率,再针对预测他人会用的10种策略微调胜率和胜幅作为manual题策略
+- #manual-trading: 提示max EV策略可能会被组织方"惩罚",纯粹追求最大期望值不一定最优
+- #manual-trading: 替代思路—先估计每个选项fair value的分布,再基于分布最大化PnL
+- #manual-trading: 一个参考结果:期望PnL约28.6万,标准差22.3万,胜率90.27%,99% VaR约-20.4万
+
+---
