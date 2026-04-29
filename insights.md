@@ -3642,3 +3642,9 @@ NO_INSIGHTS对algo-trading频道（无实质策略信息，仅闲聊和调侃）
 - #algo-trading: 有人提出观察到时间序列具有强漂移性，建议用regime detector识别趋势状态后做"买入并持有直到regime切换"的策略（反之亦然）。
 
 ---
+
+## 2026-04-29 04:33
+
+- Manual puzzle 4提示：对于不想交易的商品，需要将value设为0并任选一边（side），可以尝试这种方式
+
+---
