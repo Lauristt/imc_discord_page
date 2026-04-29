@@ -3554,3 +3554,9 @@ NO_INSIGHTS对algo-trading频道（无实质策略信息，仅闲聊和调侃）
 - manual-trading: 本轮manual交易机制——使用的预算会从PnL中扣除，未使用的预算不会加回利润而是直接作废，因此若投资回报低于预算支出PnL会变为负数，存在较大风险
 
 ---
+
+## 2026-04-28 20:40
+
+- #manual-trading: Volcanic（火山香）的最终价格高度依赖玩家下注分布，因此被认为是manual trading中PnL潜力最大的产品
+
+---
