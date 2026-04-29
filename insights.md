@@ -3812,3 +3812,12 @@ NO_INSIGHTS对algo频道（关于pebbles的讨论无实质内容）
 NO_INSIGHTS（manual-trading部分无实质信息）
 
 ---
+
+## 2026-04-29 16:48
+
+- 回测PnL与官方网站PnL差异大通常源于回测撮合更宽松（成交了实际不会成交的订单），需警惕过拟合
+- IMC官方回测使用约10万个时间步（3天数据）
+
+NO_INSIGHTS（manual-trading频道无实质信息）
+
+---
