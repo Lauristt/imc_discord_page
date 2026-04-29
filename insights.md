@@ -3593,3 +3593,11 @@ NO_INSIGHTS对algo-trading频道（无实质策略信息，仅闲聊和调侃）
 - 本轮可能存在隐藏的easter egg彩蛋，难度较高
 
 ---
+
+## 2026-04-28 23:45
+
+- #algo-trading: Pebbles被认为主要是套利策略
+- #algo-trading: Panel和Chips被普遍认为是较难做的产品；有选手在Panel上3天获得40k-95k PnL，Chips约130k
+- #algo-trading: 提醒——若策略依赖market taking，网站PnL与CSV回测结果可能差异较大，需警惕参数过拟合
+
+---
