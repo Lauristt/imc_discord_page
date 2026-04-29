@@ -3718,3 +3718,12 @@ NO_INSIGHTS对algo频道（关于pebbles的讨论无实质内容）
 - Claude tokens建议用于stat arb和做市策略开发，而非NN
 
 ---
+
+## 2026-04-29 07:35
+
+- #algo-trading: 有团队用动态规划(DP)硬编码最优策略——通过提交一次拿到日志，计算每个时间戳的最佳交易后再次提交
+- #algo-trading: NN训练思路：用GBM估计漂移和波动率，生成数千天的合成数据来训练神经网络
+- #algo-trading: 有选手发现oxygen_shake_garlic在可视化网站的价格走势与下载的实际数据不一致
+- #manual-trading: Ashflow Alpha可视化在4月29日12:00 CEST有小幅更新（具体变动未明）
+
+---
