@@ -3608,3 +3608,9 @@ NO_INSIGHTS对algo-trading频道（无实质策略信息，仅闲聊和调侃）
 - 有选手猜测本轮可能是配对交易类型的alpha题目
 
 ---
+
+## 2026-04-29 01:16
+
+- Manual trading PnL公式：assets - budget - fees = PnL（fees需计入）
+
+---
