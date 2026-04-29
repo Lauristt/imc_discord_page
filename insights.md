@@ -3759,3 +3759,10 @@ NO_INSIGHTS对algo频道（关于pebbles的讨论无实质内容）
 - #manual-trading: 有选手怀疑manual题目中的图片是PDF417条形码，但用扫描器无法解读，可能图片过窄或不完整；尝试加quiet zone无效，建议根据PDF417标准结构反向工程
 
 ---
+
+## 2026-04-29 11:55
+
+- #algo-trading: 有选手用神经网络算法在portal上获得120k PnL，方法是训练NN后将权重硬编码到策略中
+- #manual-trading: 手动交易中费用是二次方（quadratic）结构
+
+---
