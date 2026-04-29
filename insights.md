@@ -3802,3 +3802,13 @@ NO_INSIGHTS对algo频道（关于pebbles的讨论无实质内容）
 - #manual-trading: 手动交易费用计算公式确认为 100 * x * x（x为百分比数值，如25%分配则手续费=100*25*25=62500）
 
 ---
+
+## 2026-04-29 15:58
+
+- #algo-trading: snack pack与van（vanilla）和choc（chocolate）被识别为配对交易组合，建议寻找更多配对
+- #algo-trading: 网站提交与完整迭代回测的分数差异巨大（如46k vs 460k），提示回测器结果仅供参考，注意过拟合风险
+- #algo-trading: position limit为10（针对某个product）
+
+NO_INSIGHTS（manual-trading部分无实质信息）
+
+---
