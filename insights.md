@@ -3538,3 +3538,12 @@ NO_INSIGHTS对algo-trading频道（无实质策略信息，仅闲聊和调侃）
 - #manual-trading: 关于manual题目的策略讨论，多数选手认为不需过多考虑玩家心理博弈，部分选手尝试用NLP/情感分析将其量化处理
 
 ---
+
+## 2026-04-28 19:00
+
+- basket之间的spread也存在均值回归特性，可考虑跨basket套利
+- Basket 50k策略表现尚可，但并非决定性的alpha来源
+
+</result>
+
+---
