@@ -3648,3 +3648,10 @@ NO_INSIGHTS对algo-trading频道（无实质策略信息，仅闲聊和调侃）
 - Manual puzzle 4提示：对于不想交易的商品，需要将value设为0并任选一边（side），可以尝试这种方式
 
 ---
+
+## 2026-04-29 06:05
+
+- #algo-trading: 有选手认为协整配对交易（cointegration pair trading）效果可能更好
+- #algo-trading: 关于赛末未平仓头寸如何计入P&L的疑问（未得到解答）
+
+---
