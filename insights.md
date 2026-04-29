@@ -3773,3 +3773,11 @@ NO_INSIGHTS对algo频道（关于pebbles的讨论无实质内容）
 - 提到emeralds和tomatoes之间可能存在叉积（cross product）信号（真实性存疑，可能是玩笑）
 
 ---
+
+## 2026-04-29 14:47
+
+- 有人提到关注trader "mark67"可能能找到alpha信号（来自traders数据）
+- 有玩家声称仅在偶数timestamp交易回测可达200K（疑似玩笑/反讽，不可信）
+- 普遍认为本轮（round 5）正PnL难度较高，奖金池估计在500K左右，而非1.5M
+
+---
