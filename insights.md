@@ -3821,3 +3821,11 @@ NO_INSIGHTS（manual-trading部分无实质信息）
 NO_INSIGHTS（manual-trading频道无实质信息）
 
 ---
+
+## 2026-04-29 17:34
+
+- Round 5被认为是更偏"alpha quant research"的一轮（寻找隐藏信号），而非执行层面的优化
+- 有人提到spread是价格的函数，这一机制消耗了不少调试时间
+- Manual trading中关于thermalite，有人选择卖出（dump）
+
+---
