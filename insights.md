@@ -3692,3 +3692,11 @@ NO_INSIGHTS适用于algo-trading部分（仅闲聊PnL和过拟合担忧，无实
 NO_INSIGHTS对algo频道（关于pebbles的讨论无实质内容）
 
 ---
+
+## 2026-04-29 07:04
+
+- 有选手使用神经网络（NN）策略，将权重硬编码到脚本中，单日PnL可达约140万，整体回测3天达510万
+- NN在本届比赛被认为是热门meta策略
+- Round 4 manual普遍亏损，正PnL较少（有人2k）
+
+---
