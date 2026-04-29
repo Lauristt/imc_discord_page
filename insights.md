@@ -3751,3 +3751,11 @@ NO_INSIGHTS对algo频道（关于pebbles的讨论无实质内容）
 - 部分选手只在pebbles和snackpack上找到了篮子级别可利用的pattern，其他资产收益平庸
 
 ---
+
+## 2026-04-29 11:00
+
+- #algo-trading: 有选手反馈本轮挑战较难，曾因比赛结束时间早于期权到期日，通过做空所有深度实值（deep ITM）期权使排名从700升到150
+- #algo-trading: lead-lag策略普遍较难做，多人反映挣扎
+- #manual-trading: 有选手怀疑manual题目中的图片是PDF417条形码，但用扫描器无法解读，可能图片过窄或不完整；尝试加quiet zone无效，建议根据PDF417标准结构反向工程
+
+---
