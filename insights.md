@@ -3766,3 +3766,10 @@ NO_INSIGHTS对algo频道（关于pebbles的讨论无实质内容）
 - #manual-trading: 手动交易中费用是二次方（quadratic）结构
 
 ---
+
+## 2026-04-29 14:37
+
+- pepper root（辣椒根）使用均值回归策略效果良好
+- 提到emeralds和tomatoes之间可能存在叉积（cross product）信号（真实性存疑，可能是玩笑）
+
+---
