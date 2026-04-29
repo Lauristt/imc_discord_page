@@ -3584,3 +3584,12 @@ NO_INSIGHTS对algo-trading频道（无实质策略信息，仅闲聊和调侃）
 - 手动交易题目中"forever feathers"和"eternal feathers"可能是同一公司（疑似拼写问题）
 
 ---
+
+## 2026-04-28 23:20
+
+- Microchips/panels信号存在但不明显，有选手通过通用代码（无硬编码/参数调优）在回测中获得100万+ PnL
+- 部分选手在chip交易上day 2出现负收益，策略稳定性是挑战
+- Rust backtester和Kevin backtester都被认为好用
+- 本轮可能存在隐藏的easter egg彩蛋，难度较高
+
+---
