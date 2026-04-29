@@ -3655,3 +3655,12 @@ NO_INSIGHTS对algo-trading频道（无实质策略信息，仅闲聊和调侃）
 - #algo-trading: 关于赛末未平仓头寸如何计入P&L的疑问（未得到解答）
 
 ---
+
+## 2026-04-29 06:24
+
+- #algo-trading: 关于回测器与网站的选择建议——若策略依赖于操纵bot成交则用网站，若只关注价格走势则用backtester
+- #algo-trading: 网站显示的PnL只是1/10 tick，不可全信，应以backtester为准
+- #algo-trading: Pebble产品3天100k timestamps的backtester PnL参考值约为40k-80k
+- #manual-trading: 该轮manual挑战基于新闻事件，但缺乏上下文（当局反应、bot反应、参赛者反应、判断依据），不确定性本身可能就是挑战核心；举例说明市场反应未必与表面新闻直接相关（如C罗可乐事件，股票在事件前已下跌且当日已回升）
+
+---
