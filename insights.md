@@ -3601,3 +3601,10 @@ NO_INSIGHTS对algo-trading频道（无实质策略信息，仅闲聊和调侃）
 - #algo-trading: 提醒——若策略依赖market taking，网站PnL与CSV回测结果可能差异较大，需警惕参数过拟合
 
 ---
+
+## 2026-04-29 01:10
+
+- 有选手分享了Rust回测器：https://github.com/GeyzsoN/prosperity_rust_backtester/releases/tag/v0.4.3
+- 有选手猜测本轮可能是配对交易类型的alpha题目
+
+---
