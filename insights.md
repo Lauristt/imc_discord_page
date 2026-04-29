@@ -3575,3 +3575,12 @@ NO_INSIGHTS对algo-trading频道（无实质策略信息，仅闲聊和调侃）
 - 关于"追踪元素指数的基金"是购买实物reactors还是Sulfur Ltd股权的疑问（现实市场通常是股权）
 
 ---
+
+## 2026-04-28 23:10
+
+- 跨3天回测时，每个产品组PnL最低应达到约100k，总PnL可达800k+
+- Magnificent Macarons (microchips相关产品)难度较高，方差大，但可做到约120k PnL
+- 部分玩家遇到traderState大小和文件大小限制问题
+- 手动交易题目中"forever feathers"和"eternal feathers"可能是同一公司（疑似拼写问题）
+
+---
