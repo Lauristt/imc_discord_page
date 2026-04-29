@@ -3742,3 +3742,12 @@ NO_INSIGHTS对algo频道（关于pebbles的讨论无实质内容）
 - Manual round费用机制说明：投资费用从PnL中扣除，未使用的预算不会返还（视为需归还的无息贷款），即使不投资也会因费用产生负PnL影响总分
 
 ---
+
+## 2026-04-29 09:20
+
+- 有选手反馈：在portfolio benchmark上，pebbles策略可获约2.5（0回撤），snackpack约3.3（一致性较差）
+- robot_dishes可在day 4数据上过拟合到400k收益，但回合末数据不一定有效
+- 有观点认为robots类资产不适合做alpha/均值回归博弈，信噪比差
+- 部分选手只在pebbles和snackpack上找到了篮子级别可利用的pattern，其他资产收益平庸
+
+---
