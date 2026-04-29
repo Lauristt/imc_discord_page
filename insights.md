@@ -3684,3 +3684,11 @@ NO_INSIGHTS对algo-trading频道（无实质策略信息，仅闲聊和调侃）
 NO_INSIGHTS适用于algo-trading部分（仅闲聊PnL和过拟合担忧，无实质策略信息）
 
 ---
+
+## 2026-04-29 06:54
+
+- manual-trading: 有人提出manual题PnL公式为 PnL = budget × v × (r − v)，其中r为回报率，v为交易量（来源为Claude，未经证实，需自行验证）
+
+NO_INSIGHTS对algo频道（关于pebbles的讨论无实质内容）
+
+---
