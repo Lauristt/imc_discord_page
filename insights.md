@@ -3614,3 +3614,9 @@ NO_INSIGHTS对algo-trading频道（无实质策略信息，仅闲聊和调侃）
 - Manual trading PnL公式：assets - budget - fees = PnL（fees需计入）
 
 ---
+
+## 2026-04-29 01:35
+
+- manual-trading: 本轮manual基于情绪数据的回报区间是预先定义的(x,y)，但其他参赛者的选择会影响最终落点，更看好的情绪会将结果推向上限y
+
+---
