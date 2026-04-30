@@ -4300,3 +4300,14 @@ NO_INSIGHTS之外的关键提取已完成。
 - panels产品中存在可识别的模式（具体未透露）
 
 ---
+
+## 2026-04-30 05:45
+
+- 离散价格步长产品（robot dishes, oxygen chocolate, evening breath）：当价格按100跳动时，下一次方向有85%概率反转（mean reversion信号）
+- panels产品观察：bot成交在所有资产同一时间、同尺寸、同方向，等量成交意味着各资产仓位相等无价格风险，可对每个资产相对fair price的偏离做market making获利
+- 该等量成交模式在D2的ironing和D4某些资产出现，D3未出现，D5是否复现存疑
+- 固定篮子（fixed basket）偏离信号：若偏离超过某阈值则不会回归，呈漂移特征（也可能是噪声）；有人观察mispricing不漂移可做mean reversion但价差太小难以盈利
+- 该套利策略复杂实现，回测PnL约3-5万/天
+- 非官方leaderboard普遍被认为存在过拟合，参考价值有限
+
+---
