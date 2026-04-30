@@ -3871,3 +3871,12 @@ NO_INSIGHTS（manual-trading频道无实质信息）
 - 有选手提到无作弊情况下live PnL大约75k–168k区间，1.5M被怀疑为overfitting/异常。
 
 ---
+
+## 2026-04-29 20:20
+
+- #manual-trading: 本轮manual交易150k被认为是可达成的好成绩（取决于资产回报）
+- #algo-trading: 官方在R3/R4对疑似不公平合作的队伍发出警告，重复违规将被DQ；此前案例未带来实质PnL优势
+
+</response>
+
+---
