@@ -4027,3 +4027,9 @@ NO_INSIGHTS其余为闲聊和回测器使用差异讨论。
 </result>
 
 ---
+
+## 2026-04-29 23:23
+
+- 有选手指出：若策略基于 mid_price 减去 rolling_mean 做均值回归，在测试集中也能保持高PnL表现（mean reversion 围绕滚动均值的思路有效）
+
+---
