@@ -4003,3 +4003,12 @@ NO_INSIGHTS之外仅这些有限信息。
 NO_INSIGHTS其余为闲聊和回测器使用差异讨论。
 
 ---
+
+## 2026-04-29 23:00
+
+- Prosperity 4回测器fork可用：https://github.com/nabayansaha/imc-prosperity-4-backtester
+- 手动交易讨论：历史上某资产曾涨45-60%，最后一轮可考虑加大风险
+- 手动交易费用结构使得50/50产品的EV为负，需谨慎下注
+- 参考资料：Frankfurt Hedgehogs的README含历史数据信息
+
+---
