@@ -4106,3 +4106,14 @@ NO_INSIGHTS对其他频道（闲聊为主）
 - #manual-trading: 有观点认为大量买入 sulphur 缺乏依据，提示其上涨空间有限
 
 ---
+
+## 2026-04-30 03:45
+
+=================
+#manual-trading
+- Manual交易费用机制：fee = budget × scale，gross PnL = total profit - fee（fee已包含投资额），投资越多扣费越多，但投资过少利润有限，存在权衡
+- 进入市场时点为"明天"（交易日之间）
+
+#algo-trading 无有价值信息（NO_INSIGHTS）
+
+---
