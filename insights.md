@@ -3960,3 +3960,9 @@ NO_INSIGHTS之外仅这些有限信息。
 - Manual交易观点：cutlery 看涨，因为供应至少边际减少是确定的，而需求方向不明
 
 ---
+
+## 2026-04-29 22:40
+
+- Manual trading讨论：选手倾向卖出Lava Cake和Ashes，买入Sulfur和Thermalite，部分人也买Cutlery；Sulfur反应被认为可能超出1天时间框架但仍正向
+
+---
