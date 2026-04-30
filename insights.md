@@ -3847,3 +3847,11 @@ NO_INSIGHTS（manual-trading频道无实质信息）
 - #manual-trading: 玩家普遍认为指数题和税收题表述较难理解，参与者信心较低
 
 ---
+
+## 2026-04-29 19:20
+
+- #algo-trading: 有传言称IMC网站当前展示的回测使用的是Day 4数据，意味着现在的测试可能存在样本内拟合（in-sample fit）情况，但最终提交时不会用此数据
+- #algo-trading: 推荐论文 "Virtue of Complexity in Return Prediction" by B. Kelly，研究使用大量参数提升OOS预测效果，可参考用于NN方法
+- #manual-trading: Magma Ink在手动交易中价格基本已被市场定价合理（priced in），套利空间有限
+
+---
