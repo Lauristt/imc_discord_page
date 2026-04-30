@@ -4147,3 +4147,17 @@ NO_INSIGHTS对其他频道（闲聊为主）
 - #manual-trading: 有选手提到Thermalite仅作为电池用途的信息分类判断
 
 ---
+
+## 2026-04-30 05:10
+
+#algo-trading
+- 有选手分享Round 5策略：long sleeppods和garlic，pair trade snackpacks，其余产品中性仓位做市（基于trader behavior）
+- 有人提到：snackpack分spread A和spread B交易；raspberry-pistachio配对；vanilla用CHoCH（结构突破）信号
+- Round 2 alpha：所有交易发生在每天的同一时间点（时间规律）
+
+#manual-trading
+- Round 5新闻题：obsidian cutlery（黑曜石刀具）观点分歧——有人认为类似"red flags+cacti needle"混合，因刀过于锋利造成事故和工厂损毁，可能不利好；保守策略0%
+- volcanic incense被认为是rugpull陷阱，最佳出价0%（不知何时dump且只交易一天）
+- Magma Ink、Ashes 也建议出价0%
+
+---
