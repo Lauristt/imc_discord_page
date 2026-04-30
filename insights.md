@@ -4236,3 +4236,12 @@ NO_INSIGHTS对其他频道（闲聊为主）
 - 手动交易第5轮：Volcanic Incense被多人跳过；Obsidian故事alpha接近零不值得赌；Red Flags被认为是唯一可行的替代选项
 
 ---
+
+## 2026-04-30 05:30
+
+#algo-trading
+- chrono55的options策略（R3第26→R4第10）：用bootstrapped AR(2)过程估计mean和level的置信区间，再转换到contract空间得到对应区间；若contract空间bands太小则不交易，自动考虑了theta decay对spread收缩的影响
+- chrono55策略变体：原版~600k PnL用确定性趋势，换成EMA后更稳健，得到~400k PnL（3天回测）
+- chrono55补充：主要寻找I(1)协整配对，估计漂移项，基于VECM bootstrap估计的alpha对篮子成分进行均值回归交易
+
+---
