@@ -3855,3 +3855,11 @@ NO_INSIGHTS（manual-trading频道无实质信息）
 - #manual-trading: Magma Ink在手动交易中价格基本已被市场定价合理（priced in），套利空间有限
 
 ---
+
+## 2026-04-29 19:30
+
+- #algo-trading: 建议将均值回归类策略建模为OU过程而非简单使用Z-score，可降低交易成本损耗
+- #manual-trading: 去年manual交易的费用结构为二次型(quadratic)
+- #manual-trading: Thermalite的定位类似去年的VR(可能指无需特别配置/已被price in的品类)
+
+---
