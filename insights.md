@@ -4311,3 +4311,15 @@ NO_INSIGHTS之外的关键提取已完成。
 - 非官方leaderboard普遍被认为存在过拟合，参考价值有限
 
 ---
+
+## 2026-04-30 05:46
+
+- 期权策略：Gamma scalp + Black-Scholes被提到，但IV scalping难以执行
+- Pebbles总和恒定为50,000（可用于constraint验证）
+- Snackpack套利思路：可在snackpack中构造两个篮子进行交易；snackpack本质是vanilla与raspberry的关系
+- 重要提醒：相关价格序列不是均值回归的，不能用mean-reversion策略
+- 市场微观结构：只有一个taker，有一个market maker通过40种不同资产运行不同的order book
+- 回测参考：D2-D4每日PnL约43-50万，Daily Sharpe 13.29，Tick Sharpe 10.21，最大回撤35,066
+- 策略验证教训：很多pattern只在3天中的2天成立，需谨慎判断是否丢弃
+
+---
