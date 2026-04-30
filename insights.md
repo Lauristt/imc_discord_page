@@ -3966,3 +3966,10 @@ NO_INSIGHTS之外仅这些有限信息。
 - Manual trading讨论：选手倾向卖出Lava Cake和Ashes，买入Sulfur和Thermalite，部分人也买Cutlery；Sulfur反应被认为可能超出1天时间框架但仍正向
 
 ---
+
+## 2026-04-29 22:42
+
+- #algo-trading: 50个产品被分为10组，每组5个，组内产品有相似性可整体分析；但同组内策略未必通用，应只交易能找到稳健alpha的产品，而非强行覆盖全部50个
+- #manual-trading: 选手猜测manual交易选品本身无关紧要，关键在于背后的理由逻辑；个别选手押注cutlery上涨、lava cakes大幅下跌
+
+---
