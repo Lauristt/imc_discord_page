@@ -4096,3 +4096,13 @@ NO_INSIGHTS之外的实质信息有限，大部分为闲聊。
 NO_INSIGHTS对其他频道（闲聊为主）
 
 ---
+
+## 2026-04-30 03:25
+
+- #algo-trading: 可通过在 Trader.run() 内用 time.time() 包裹打印耗时，监控代码执行速度；run block 每个 tick 调用一次，越快越好，可硬编码不依赖历史数据的部分以加速
+- #algo-trading: 有选手提到通过修复仓位未正确建立的小bug，PnL 从 80k 提升到 600k+，提示检查 position 逻辑细节
+- #algo-trading: 有人提出关注 bots 同时买卖资产的现象作为潜在信号，但尚未公开有效用法
+- #manual-trading: 关于 obsidian 多空争论 —— 工厂停产利好供给端涨价，但污染议题与替代品可能压制需求；多数人偏看涨
+- #manual-trading: 有观点认为大量买入 sulphur 缺乏依据，提示其上涨空间有限
+
+---
