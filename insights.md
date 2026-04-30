@@ -3973,3 +3973,12 @@ NO_INSIGHTS之外仅这些有限信息。
 - #manual-trading: 选手猜测manual交易选品本身无关紧要，关键在于背后的理由逻辑；个别选手押注cutlery上涨、lava cakes大幅下跌
 
 ---
+
+## 2026-04-29 22:50
+
+- manual-trading: 有人认为incense（香）的锚定价格设为0，对他人交易行为高度敏感，风险大，选择不交易以避免手续费
+- manual-trading: 讨论paste的长期价值可能也接近0，但相比之下paste有实际用途，可能价值略高
+- manual-trading: 共识是没有明确信号时不要交易冷门商品，以避免手续费损耗
+- algo-trading: 对于看似奇怪的产品组合统计套利信号，建议视为噪声，不要浪费时间
+
+---
