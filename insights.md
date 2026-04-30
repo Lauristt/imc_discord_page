@@ -3887,3 +3887,13 @@ NO_INSIGHTS（manual-trading频道无实质信息）
 - 有选手反映panels在回测器表现良好但实盘上线后大幅下滑，存在过拟合风险
 
 ---
+
+## 2026-04-29 21:05
+
+- 策略方向讨论：有人提到策略可能是均值回归（mean reversion），也有人调侃"买入并持有 PURIFICATION XL，卖出其他"
+- 神经网络（NN）不是有效alpha
+- 回测器与官网结果不一致：使用 nabayansaha/imc-prosperity-4-backtester 时，回测3天盈利12万，但官网提交后表现下降
+- 一位选手分享回测分日数据：day-2约43.5万，day-3约41.8万，day-4约42.1万，三天合计约127万
+- 警示：过高的Sharpe比率可能意味着过拟合
+
+---
