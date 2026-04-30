@@ -4357,3 +4357,16 @@ NO_INSIGHTS之外的关键提取已完成。
 - 单日PnL上限大约在60-70k左右
 
 ---
+
+## 2026-04-30 06:15
+
+- Round 5期权策略：本质是Velvet的均值回归（围绕5250），用ITM期权做高杠杆放大；阈值参考 |Velvet-5250|>25 触发反向加仓
+- Hydrogen (HP) 策略：非对称阈值，HP-9990>40则卖出，9990-HP>8则买入（上下行深度中位数不同）
+- Round 3提示：5300执行价在波动率微笑曲线上略偏低，可作为相对价值机会
+- Round 3期权：即使做均值回归也需用Black-Scholes，将标的z-score区间结合IV转换为合约空间的边界
+- Round 2策略：做多pepper，剩余仓位约10做市；当一侧订单簿消失时报价，bot会在远离mid的价位成交
+- Round 4：Mark 55的亏损交易源于跨价差，可利用
+- Round 5相关性观察：chocolate/vanilla 与 pistachio/raspberry/strawberry 的收益完全负相关；circle的1-tick收益滞后50-100-150-200与其他microchips相关；pebbles的mid之和等于50000（守恒套利）；robot_dishes存在跳跃
+- 完整alpha栈构成参考：静态方向性持仓 + 同族pair RV + 选择性lead-lag择时 + basket/类别均值RV + 状态机优先级管理 + 闲置容量补充策略 + 仅灾难级风控（实盘145K）
+
+---
