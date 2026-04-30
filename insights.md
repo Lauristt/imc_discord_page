@@ -4278,3 +4278,15 @@ NO_INSIGHTS（其余为闲聊）
 - #algo-trading: 据Tan Le文档，cross-category products之间均存在leader-follower关系（但相关性可能太弱难以盈利）
 
 ---
+
+## 2026-04-30 05:40
+
+- microchips存在lead-lag关系，是Round相关alpha来源之一
+- 总结5个alpha方向：microchips lead-lag、fruitsnack配对交易、pebbles固定篮子（价格之和固定）、lattice moves、做市
+- pebbles组合的价格之和是固定的，可作为套利信号
+- snackpack中存在篮子互相对冲交易的可能
+- market taking时spread过大容易亏损，市场做市实施较难
+
+NO_INSIGHTS之外的关键提取已完成。
+
+---
