@@ -4019,3 +4019,11 @@ NO_INSIGHTS其余为闲聊和回测器使用差异讨论。
 - #manual-trading: 去年第5轮manual交易实际涨跌幅总和接近200%，可参考TimoDiehm的GitHub repo (imc-prosperity-3) 历史数据
 
 ---
+
+## 2026-04-29 23:08
+
+- manual-trading: 今年manual新闻信号强弱较为均匀分布，不像往年有明显的强弱信号区分，预期收益可能不会出现极端分化
+
+</result>
+
+---
