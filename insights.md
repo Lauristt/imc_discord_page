@@ -3863,3 +3863,11 @@ NO_INSIGHTS（manual-trading频道无实质信息）
 - #manual-trading: Thermalite的定位类似去年的VR(可能指无需特别配置/已被price in的品类)
 
 ---
+
+## 2026-04-29 20:05
+
+- PEBBLES家族策略思路：计算五个PEBBLES中间价之和减去50000；和过低时按ask买入XL，过高时按bid卖出XS（XS吸收失衡）；接近平衡时只交易XL（用XL对其他四个的均值作为一维因子，配合momentum规则在bid+1/ask−1下单并设上限）。利用家族篮子近似恒定+XS/XL分别清理失衡+XL为高beta腿。
+- 管理员警告：若多支队伍合谋作弊将全部DQ，且会通报HR/招聘，影响录用。
+- 有选手提到无作弊情况下live PnL大约75k–168k区间，1.5M被怀疑为overfitting/异常。
+
+---
