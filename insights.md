@@ -4012,3 +4012,10 @@ NO_INSIGHTS其余为闲聊和回测器使用差异讨论。
 - 参考资料：Frankfurt Hedgehogs的README含历史数据信息
 
 ---
+
+## 2026-04-29 23:03
+
+- #algo-trading: 有选手提示本轮50个资产应按10个分组来分析，而不是逐一或两两比较
+- #manual-trading: 去年第5轮manual交易实际涨跌幅总和接近200%，可参考TimoDiehm的GitHub repo (imc-prosperity-3) 历史数据
+
+---
