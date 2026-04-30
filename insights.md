@@ -4061,3 +4061,9 @@ NO_INSIGHTS其余为闲聊和回测器使用差异讨论。
 （manual-trading频道无有价值信息）
 
 ---
+
+## 2026-04-30 01:09
+
+- #algo-trading: 有人提示 GALAXY_SOUNDS_BLACK_HOLES 与 SLEEP_POD_POLYESTER 之间存在 leader-lag 关系，建议 lookback 设为 100（信息真实性存疑，发帖者自称排名垫底）
+
+---
