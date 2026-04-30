@@ -4245,3 +4245,10 @@ NO_INSIGHTS对其他频道（闲聊为主）
 - chrono55补充：主要寻找I(1)协整配对，估计漂移项，基于VECM bootstrap估计的alpha对篮子成分进行均值回归交易
 
 ---
+
+## 2026-04-30 05:31
+
+- #algo-trading: 针对ROBOTS产品，可在每个timestamp拟合多项式 a + b*area + c*width^2 + d*height^2，对偏差进行scalping
+- #algo-trading: Day 4 ROBOTS出现大幅离散跳跃，存在约400k无风险PnL机会，可通过观察图表发现
+
+---
