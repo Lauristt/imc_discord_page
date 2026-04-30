@@ -4342,3 +4342,11 @@ NO_INSIGHTS之外的关键提取已完成。
 - Panels产品可能存在alpha：用 a + b·area + c·width² + d·height² 的多项式在每个timestamp拟合，然后scalp偏离值
 
 ---
+
+## 2026-04-30 06:00
+
+- #algo-trading: Snack packs（pebbles、microchips）之间存在显著相关性，可用于配对/lead-lag交易；Orin曾暗示lead-lag关系
+- #algo-trading: 建议对midprice进行平滑处理后再交易噪声
+- #algo-trading: 观察到均值回归特征：价格上涨后约85%概率下一步下跌
+
+---
