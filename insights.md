@@ -4126,3 +4126,16 @@ NO_INSIGHTS对其他频道（闲聊为主）
 - Manual交易中Obsidian Cutlery被解读为买入信号，理由是问题不在产品本身而是供应受限
 
 ---
+
+## 2026-04-30 04:55
+
+#algo-trading
+- 有选手发现3个basket产品之间存在lead-lag关系，实施后增加约14万利润
+- 参与者交易记录(trades)中也存在lead-lag信号可利用
+- 解决配对策略冲突可通过分配优先级来处理
+- Round 5单日backtest约80万利润仍非顶级水平，顶队单日backtest可能在120万左右
+
+#manual-trading
+- 本轮manual题目可能存在类似Round 3 prop的"红旗"陷阱信号，需谨慎判断；有选手倾向小幅买入(4)
+
+---
