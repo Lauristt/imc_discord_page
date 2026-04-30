@@ -3897,3 +3897,12 @@ NO_INSIGHTS（manual-trading频道无实质信息）
 - 警示：过高的Sharpe比率可能意味着过拟合
 
 ---
+
+## 2026-04-29 21:10
+
+- 第5轮(round 5)前150万左右利润主要来自pairs trading策略，可通过绘制各pair价差图寻找机会
+- 均值回归价格比率(ratio mean reversion)是pairs trading的可行思路
+- 一个backtest参考PnL基准：day2约339k、day3约393k、day4约427k，总计约119万
+- Manual trading的PnL计算可能存在手续费/汇率损耗，买卖价差直接相减与实际PnL会有偏差
+
+---
