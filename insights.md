@@ -3829,3 +3829,12 @@ NO_INSIGHTS（manual-trading频道无实质信息）
 - Manual trading中关于thermalite，有人选择卖出（dump）
 
 ---
+
+## 2026-04-29 19:00
+
+- #manual-trading: 选手讨论本轮manual trading的方向判断，普遍认为虽然故事描述听起来bearish（且Claude/Gemini等AI也判断为bearish），但实际是bullish的供应冲击；参考去年走势预计最大驱动因素可能移动50-60%，多数人计划下注20-25%偏多
+- #manual-trading: 提示注意去年manual round中价格波动幅度很大，AI判断方向可能误导，需独立思考
+- #algo-trading: 有选手提到Round 5的算法收益约在20mil级别（后承认夸大，建议查leaderboard核实）
+- #algo-trading: 提到Round 3是容易翻车的关键回合
+
+---
