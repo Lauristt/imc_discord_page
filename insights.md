@@ -4189,3 +4189,11 @@ NO_INSIGHTS对其他频道（闲聊为主）
 - 关键差异：本轮文本说的是"forecast"而非"quarterly report"，需注意
 
 ---
+
+## 2026-04-30 05:16
+
+- #algo-trading: 有选手用OU过程+布林带做均值回归策略，并怀疑Round 4的残差也遵循OU过程
+- #algo-trading: 选手反映难以从bot订单流中找到信号，最终改为通过被动挂单从taker获得更好成交
+- #algo-trading: 提到一篇相关SSRN论文（abstract_id=5713082），可作均值回归参考
+
+---
