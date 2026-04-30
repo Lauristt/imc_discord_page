@@ -4169,3 +4169,23 @@ NO_INSIGHTS对其他频道（闲聊为主）
 - 手动交易：去年Round 4曾将3个产品的真实价值设为0；本轮预期最大收益约125-150k
 
 ---
+
+## 2026-04-30 05:15
+
+### #algo-trading
+- 官方确认Round 5无新regime变化，只是"调味"性质，不会有大变动
+- Round 5 Manual中Sulfur Reactor的文本已更新：Elemental Index 118将在下一次rebalance加入Sulfur Reactor，跟踪该指数的基金会调整持仓
+- Round 3和4的数据多由OU过程生成，可用阈值型均值回归（类似Bollinger Bands）交易；参考论文 arxiv.org/pdf/1504.04682
+- Options在本届实际无价值，Implied Volatility无有效信号；直接对价格做MR是更优选择
+- Round 2中针对roots和osmium的市场操纵思路：吃掉一边订单簿后挂高/低1%重新挂单，需逆向工程bot触发条件
+- 本轮每笔交易（除2个family外）size和timestamp相同，可基于此设计策略
+- 服务器迭代次数约为本地回测的1/10，回测PnL与实盘比例需相应估算
+- Top选手策略示例：五引擎ensemble，把50个产品分配到子trader（T040/T100/T399/TMSG6），主要alpha为basket spread均值回归（组内OU mid - peer_avg）和OU自身mid回归；TMSG6含translator事件驱动配对；CF_PAIR协整（CHOC/VAN β=-0.974）；FORCED_BANDS对已知方向偏置产品做硬限位；v504加入probe挖出的bot exploit（被动BVFV/MID挂单在spread内）
+- 具体配对/leader-lag参数示例：PEBBLES_M+PEBBLES_XS→PEBBLES_XL (lb50, pol-1, th418.25)、MICROCHIP三角/方形残差breakout (β=-0.742, th326.2)、UV_VISOR_ORANGE→GALAXY_SOUNDS_DARK_MATTER (lag75)、PANEL_1X4→1X2(lag1)、ROBOT_VACUUMING→ROBOT_DISHES (lag750) 等众多leader-lag与pair residual breakout信号
+
+### #manual-trading
+- Round 5 Manual策略：Lava Cake重押65%基准，分配57%预算覆盖范围，最多可用至61%
+- Thermite cores被认为是最大陷阱，预计上涨约15%
+- 关键差异：本轮文本说的是"forecast"而非"quarterly report"，需注意
+
+---
