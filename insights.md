@@ -4268,3 +4268,13 @@ NO_INSIGHTS对其他频道（闲聊为主）
 NO_INSIGHTS（其余为闲聊）
 
 ---
+
+## 2026-04-30 05:36
+
+- #algo-trading: Microchips存在lead-lag关系，每个分别以50/100/150/200的滞后跟随Circle
+- #algo-trading: 50个products是有意设计的，目的是模拟真实场景——需要筛选出真正有edge的可交易标的，多数是噪声
+- #algo-trading: R5信号统计显著性较难发现，Exotic options难度较高，整体存在流动性不足的问题
+- #algo-trading: R3/R4执行细节对收益影响显著
+- #algo-trading: 据Tan Le文档，cross-category products之间均存在leader-follower关系（但相关性可能太弱难以盈利）
+
+---
