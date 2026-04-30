@@ -4334,3 +4334,11 @@ NO_INSIGHTS之外的关键提取已完成。
 - #general: 选手分享 backtest 结果参考：D2~D4 PnL 约 43-50万/天，Daily Sharpe 13.29，Tick Sharpe 10.21，最大回撤 35k
 
 ---
+
+## 2026-04-30 05:51
+
+- Galaxy系列产品（除Dark Matter外）适合做市；平的曲线说明那些产品是噪音
+- 有人在所有可能的配对上做pair trading MM
+- Panels产品可能存在alpha：用 a + b·area + c·width² + d·height² 的多项式在每个timestamp拟合，然后scalp偏离值
+
+---
