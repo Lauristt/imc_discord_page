@@ -4076,3 +4076,13 @@ NO_INSIGHTS其余为闲聊和回测器使用差异讨论。
 NO_INSIGHTS对于algo-trading频道
 
 ---
+
+## 2026-04-30 02:40
+
+- 回测器资源：kevin-fu的IMC Prosperity 4可视化器和回测器（github.com/kevin-fu1/imc-prosperity-4-backtester）
+- 策略观察：lead-lag策略对部分资产有效；部分资产适合mean reversion
+- 重要提醒：回测PnL与IMC官方平台模拟结果差异显著，回测表现好的策略在官方模拟可能表现差，反之亦然（多位选手报告：回测50万-70万，官方portal只有3万-8万）
+
+NO_INSIGHTS之外的实质信息有限，大部分为闲聊。
+
+---
