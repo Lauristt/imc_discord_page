@@ -3937,3 +3937,12 @@ NO_INSIGHTS
 - 提及IMC回测数据仍可能存在20%随机化的问题（未确认）
 
 ---
+
+## 2026-04-29 22:00
+
+- #algo-trading: 选手观察到目前为止除pepper外，几乎所有product都呈现均值回归特性
+- #manual-trading: 关于cutlery的多空讨论——供应减少看涨，但污染原因可能也带来看跌解读
+
+NO_INSIGHTS之外仅这些有限信息。
+
+---
