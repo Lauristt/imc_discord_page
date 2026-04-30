@@ -4323,3 +4323,14 @@ NO_INSIGHTS之外的关键提取已完成。
 - 策略验证教训：很多pattern只在3天中的2天成立，需谨慎判断是否丢弃
 
 ---
+
+## 2026-04-30 05:50
+
+- #algo-trading: 有选手提到 panels 策略相关讨论（vanilla+chocolate, raspberry+strawberry 配对），D4 上 R² 达到 0.99
+- #algo-trading: 有人提出将均值建模为概率跳跃过程并围绕其交易，每日 PnL 约 750k
+- #algo-trading: 关于 pebbles 的市场做市策略——由于 bots 全部成交或不成交，做市可保持完美对冲，相比纯 taker 更能利用偏离
+- #algo-trading: VAR 模型 + 最小化 IC 来研究 IRF 和 FEVD，结合 bid/ask 命中时机及 spread 行为，使用 DDTW 验证多特征下的资产聚类
+- #algo-trading: 系统性 L/S 策略思路——价差长期会均值回归至 0
+- #general: 选手分享 backtest 结果参考：D2~D4 PnL 约 43-50万/天，Daily Sharpe 13.29，Tick Sharpe 10.21，最大回撤 35k
+
+---
