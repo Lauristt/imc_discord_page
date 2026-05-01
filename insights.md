@@ -4848,3 +4848,10 @@ NO_INSIGHTS之外的有效信息已提取。
 - 排行榜在不同round间波动剧烈，建议各round权重相似化以避免前几round表现差的选手仅凭最后一round翻盘
 
 ---
+
+## 2026-05-01 00:19
+
+- Round 5的alpha来源：部分商品在robot/oxygen信号下以100为增量移动；Pebbles与XL存在相关性；Micro chip可做滞后交易；Snackpack有相关性可用
+- Round 5中30k+ PnL（无过度拟合）被认为是不错的成绩；很多回测2M+的策略实盘表现会很差，警惕过拟合
+
+---
