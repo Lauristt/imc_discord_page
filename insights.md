@@ -4819,3 +4819,9 @@ NO_INSIGHTS之外的有效信息已提取。
 - 均值回归策略中，不要直接对原始价差Y_t用阈值/EMA交易；通过统计分析识别真正的基本均值回归序列(如Y_t - X_t 和 X_t)，分别交易才是更有效的alpha来源
 
 ---
+
+## 2026-04-30 21:38
+
+- #algo-trading: 观察到microchip与circle之间存在lead-lag关系，可用t-50时刻的circle价格变化作为alpha信号预测当前microchip价格；但有选手反馈两者spread过大，实际套利获利困难。
+
+---
